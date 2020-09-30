@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935973ab-e04e-406f-827e-7fee4cc74586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2.Thuattoan/Thuc_hanh/VSCodeUserSetup-x64-1.49.2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 git&amp;html/bai tap/Baitaptaodanhsach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 git&amp;html/thuc hanh/Thuc hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/3 git&amp;html/thuc hanh/Thuc hanh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 git&amp;html/thuc hanh/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -24,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -40,6 +51,8 @@
       <workItem from="1600867788809" duration="10000" />
       <workItem from="1601281721414" duration="1019000" />
       <workItem from="1601295975427" duration="434000" />
+      <workItem from="1601299539567" duration="2576000" />
+      <workItem from="1601387876151" duration="2097000" />
     </task>
     <servers />
   </component>
@@ -54,9 +67,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601296582700" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1601281825408">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601299608053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601281825408" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601299608053" />
   </component>
 </project>
