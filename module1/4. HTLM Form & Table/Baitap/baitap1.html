@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple formt</title>
+    <style> .m1 { color: blue }
+            .m2 {background-color: burlywood}
+    </style>
+</head>
+<body>
+<form method="get" action="baitap1phan1.html">
+  <h3 style="background-color: red ; color: white ;"> So thich cua ban ?</h3>
+    <p class="m1"> Ho va ten : <input type="text" name="name"</p>
+    <p class="m1"> Email : <input type="email" name="Email" > </p>
+    <p class="m1">So thich : </p>
+        <label><input type="checkbox" value="qq" name="rd" >The thao</label>
+        <label><input type="checkbox" value="qq" name="rd" > Am nhac</label>
+        <label><input type="checkbox" value="qq" name="rd" > Doc sach</label><br>
+        <label><input type="checkbox" value="qq" name="rd" > Choi game</label>
+        <label><input type="checkbox" value="qq" name="rd" > Xem phim</label>
+        <label><input type="checkbox" value="qq" name="rd" > Du lich</label><br>
+        <label><input type="checkbox" value="qq" name="rd" > Dien anh</label><br>
+    <input type="submit" value="Gui thong tin">
+    <input type="reset" value="Nhap lai">
+
+</form>
+<form method="get" action="baitap1phan2.html">
+  <div class="m2"?>
+      <h3 style="background-color: aqua;color: blue ;">Dang ky hoc vien</h3>
+      <p class="m1" >Ho va ten :
+         <input type="text" name="name" >
+      </p>
+      <p class="m1">Ngay sinh
+          <input type="date" name="birthday">
+      </p>
+      <p class="m1">Gioi tinh
+          <label><input type="radio" name="rd">Nam</label>
+          <label><input type="radio" name="rd">Nu</label>
+      </p>
+      <p class="m1">Dia chi
+      <input type="text" name="address" >
+      </p>
+      <p class="m1">Lop
+          <select name="class">
+              <option value="class">-class-</option>
+              <option value="class1">class1</option>
+              <option value="class2">class2</option>
+          </select>
+      </p>
+      <p class="m1">Email
+          <input type="email" name="Email">
+      </p>
+      <p class="m1"> Dien Thoai
+          <input type="number" name="phone">
+      </p>
+      <input type="submit" value="Dang ky">
+      <input type="reset" value="Nhap lai">
+  </div>
+</form>
+</body>
+</html>

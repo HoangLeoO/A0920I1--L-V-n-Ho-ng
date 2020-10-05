@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935973ab-e04e-406f-827e-7fee4cc74586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3 git&amp;html/bai tap/Baitaptaodanhsach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/Baitap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/baitap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/baitap3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/taotable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Thuchanh/formcoban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Thuchanh/tablesimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Thuchanh/tkb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/chenma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/nhumma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/script.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3 git&amp;html/thuc hanh/Thuc hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/3 git&amp;html/thuc hanh/Thuc hanh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3 git&amp;html/thuc hanh/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -53,6 +65,14 @@
       <workItem from="1601295975427" duration="434000" />
       <workItem from="1601299539567" duration="2576000" />
       <workItem from="1601387876151" duration="2097000" />
+      <workItem from="1601468524434" duration="4925000" />
+      <workItem from="1601473675463" duration="1276000" />
+      <workItem from="1601563732419" duration="5279000" />
+      <workItem from="1601614500910" duration="301000" />
+      <workItem from="1601615198685" duration="2471000" />
+      <workItem from="1601621871414" duration="3327000" />
+      <workItem from="1601639910987" duration="6567000" />
+      <workItem from="1601647374741" duration="415000" />
     </task>
     <servers />
   </component>
@@ -67,9 +87,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601296582700" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601299608053">
+    <state x="535" y="74" key="RollbackChangesDialog" timestamp="1601621691331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601299608053" />
+    <state x="535" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601621691330" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601624956223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601624956223" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/bai3.html</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
