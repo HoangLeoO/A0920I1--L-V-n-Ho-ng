@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p> Nhập Feet <input type="text" onchange="feetToMeter(this.value)" oninput="feetToMeter(this.value)"></p>
+<p> Nhập Meter = <input type="text" oninput="meterToFeet(this.value)" onchange="meterToFeet(this.value)"></p>
+    <p> Meter = <span id="M" ></span></p>
+    <p> Feet = <span id="F"></span></p>
+<script>
+    function feetToMeter(Feet) {
+    document.getElementById("M").innerHTML = (0.305 * Feet).toFixed(5) ;
+    }
+    // let Feet = parseFloat(prompt("Nhap feet :"));
+    // feetToMeter(Feet);
+    function meterToFeet(Meters) {
+        document.getElementById("F").innerHTML = (3.279 * Meters).toFixed(5) ;
+    }
+    // let Meter = parseFloat(prompt("Nhap meter :"));
+    // meterToFeet(Meter);
+</script>
+</body>
+</html>

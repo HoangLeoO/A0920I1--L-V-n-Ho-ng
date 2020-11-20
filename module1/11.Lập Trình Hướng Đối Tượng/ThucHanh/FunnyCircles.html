@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <canvas id="myCan" width="1000px" height="1000px" style="border:3px solid #d3d3d3;">
+     <script>
+         class Circle{
+             constructor(x,y,radius) {
+                 this.x = x ;
+                 this.y = y ;
+                 this.radius = radius ;
+             }
+             getX(){
+                 return this.x ;
+             }
+             setX(value){
+                 this.x = value ;
+             }
+             getY(){
+                 return this.y;
+             }
+             setY(value){
+                 this.y = value ;
+             }
+             getRadius(){
+                 return this.radius ;
+             }
+             setRadius(){
+                 this.radius = value ;
+             }
+             createCircle(){
+                 let myCan = document.getElementById("myCan") ;
+                 let ctx = myCan.getContext("2d");
+                 ctx.beginPath();
+                 ctx.arc(this.x,this.y,this.radius,0,2*Math.PI);
+                 ctx.fill();
+             }
+
+         }
+         let circle = new Circle(250,250,100);
+         circle.createCircle()
+     </script>
+</body>
+</html>

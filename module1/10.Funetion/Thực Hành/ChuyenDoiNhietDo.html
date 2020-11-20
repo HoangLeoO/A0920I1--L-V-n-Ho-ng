@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funetion</title>
+</head>
+<body>
+<p>
+F <input type="text" id="NHap F"
+         oninput="ChuyenDoiNhietDo(this.value)"
+         onchange="ChuyenDoiNhietDo(this.value)" >
+</p>
+ <p >C =<span id="C"></span></p>
+<script>
+    function ChuyenDoiNhietDo(a) {
+        a = parseFloat(a);
+        document.getElementById("C").innerText = (a - 32) / 1.8;
+    }
+</script>
+</body>
+</html>

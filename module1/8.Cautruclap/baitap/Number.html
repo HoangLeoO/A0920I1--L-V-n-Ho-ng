@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhap so :"));
+    let count = true ;
+    if( num < 2 ){
+        count = false ;
+    }else {
+        for (i = 2 ; i < num -1 ; i++)
+        {
+            if (num % i === 0){
+                count = false ;
+        }
+5    }
+    }
+    if ( count === true){
+        alert("Day la so nguyen to !");
+    }else {
+        alert("Day khong phai la so nguyen to");
+    }
+</script>
+</body>
+</html>

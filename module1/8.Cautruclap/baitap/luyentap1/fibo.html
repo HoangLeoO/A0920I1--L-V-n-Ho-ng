@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let number=parseInt(prompt('nhap vao so fibo muon in'));
+    //
+    //     if(number === 0 || number === 1 ){
+    //         number = 1 ;
+    //         document.write(number);
+    //     }
+    //     let a1 = 0;
+    //     let a2 = 1;
+    //     let a;
+    //     let i = 2;
+    //     while(i <= number){
+    //         a = a1 + a2;
+    //         a1 = a2;
+    //         a2 = a;
+    //         i++;
+    //         document.writeln(a + "<br>");
+    //     }
+
+    /*
+     Tìm số đầu tiên trong dãy fibonacci chia hết cho 5
+     */
+    // let num = parseInt(prompt("Nhap so fibo muon tim :" ));
+    // let a1 = 0;
+    // let a2 = 1;
+    // let a ;
+    // for ( let i = 2 ; i <=num ; i++)
+    // {
+    //   a = a1 + a2 ;
+    //   a1 = a2 ;
+    //   a2 = a ;
+    //   if ( a % 5 === 0){
+    //       break;
+    //   }
+    // }
+    // alert(a);
+
+    /*
+    Tính tổng của 20 số đầu tiên trong dãy fibonacci.
+     */
+    let num = parseInt(prompt("Nhap so fibo :"));
+    let a ;
+    let a1 = 0 ;
+    let a2 = 1 ;
+    let sum = 0;
+    for (let i = 2 ; i <= num ; i++)
+    {
+     a = a1 + a2 ;
+     a1 = a2 ;
+     a2 = a ;
+     document.write(a + "<br>");
+     sum += a ;
+    }
+    document.write("Tong fibo = " + (sum+1) );
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="month" name="month">
+<button id="btn" onclick="getDay();">Tính số ngày</button>
+<br><br>
+<h3 id="day"></h3>
+<script>
+    const inputMonth = document.getElementById('month');
+    const btn =  document.getElementById('btn');
+    const day = document.getElementById('day');
+
+    function getDay() {
+        let month = inputMonth.value;
+        console.log(month);
+        switch(month){
+            case '1':
+            case '3':
+            case '5':
+            case '7':
+            case '8':
+            case '10':
+            case '12':
+                day.innerHTML = ("Tháng "+ month+" có 31 ngày");
+                break;
+            case '2':
+                day.innerHTML = ("Tháng "+ month+" có 28 hoặc 29 ngày");
+                break;
+            case '4':
+            case '6':
+            case '9':
+            case '11':
+                day.innerHTML = ("Tháng "+ month+" có 30 ngày");
+                break;
+            default:
+                day.innerHTML = ("Tháng bạn nhập không hợp lệ");
+        }
+    }
+</script>
+</body>
+</html>

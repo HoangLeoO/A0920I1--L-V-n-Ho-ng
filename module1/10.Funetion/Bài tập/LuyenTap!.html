@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+<script>
+
+    // function alertMessage() {
+    //     alert("Hello!");
+    // }
+    // alertMessage();
+
+    // function Doiso(n) {
+    //     return ++n;
+    // }
+    // alert(Doiso(3));
+
+    // function AAndB(a,b) {
+    //
+    //     if (a > b){
+    //         alert(a + ">" + b);
+    //     }else if (a < b){
+    //         return a + b ;
+    //     }else { alert( a + "=" + b);
+    //     }
+    // }
+    // let a = parseInt(prompt("Nhap a :"));
+    // let b = parseInt(prompt("Nhap b :"));
+    // document.writeln(AAndB(a,b));
+
+   //  function addNumbers() {
+   //      let firstNum = 4;
+   //       let secondNum = 8;
+   //      result = firstNum + secondNum;
+   //      return result;
+   //  }
+   // let  result = 0;
+   //  alert("truoc khi goi ham  = " + result);
+   // alert("sau khi hoi ham  =" + addNumbers() )
+
+    let input = prompt("Nhap chom sao ban muon tim kiem ");
+    let arr1 =[ 'Polaris', 'Aldebaran','Deneb', 'Vega', 'Altair', 'Dubhe' ,'Regulus'];
+    let arr2 =['Ursa Minor','Tarurus', 'Cygnus', 'Lyra', 'Aquila','Ursa Major' , 'Leo' ];
+    function check(N) {
+        if(N){
+        if ( arr1.indexOf(N) !==1 ){
+            alert(arr2[arr1.indexOf(N)]);
+        }else {
+            alert("Khong tim thay ");
+        }
+        }else {
+            alert("Ban Chua Nhap j ca !");
+        }
+    }
+    check(input);
+</script>
+</body>
+</html>

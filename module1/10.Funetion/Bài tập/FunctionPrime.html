@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPrime(number) {
+        let count = true ;
+        if(number < 2){
+            count = false ;
+        }else if (number === 2) {
+            count = true ;
+        }else if (number % 2 === 0){
+            count = false ;
+        }else {
+            for(let i = 3 ; i < number - 1 ; i+=2)
+            {
+              if(number % i === 0){
+                  count = false ;
+                  break ;
+              }
+            }
+        }
+        if(count === true){
+            document.writeln(number + " Day La So Nguyen To ");
+        }else {
+            document.writeln(number + " Day Khong Phai La So Nguyen To ");
+        }
+    }
+     let a =parseInt(prompt("Nhap number = ")) ;
+     isPrime(a) ;
+
+</script>
+</body>
+</html>

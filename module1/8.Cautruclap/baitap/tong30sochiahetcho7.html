@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("Nhap so :"));
+    let count = 0 ;
+    let tong = 0 ;
+    let i = 0;
+    while(count<n)
+    { document.write("count = " + count + "<br>");
+        if (i%7 === 0){
+            tong = tong + i ;
+            count++;
+
+            document.write("tong = " + tong + "<br>");
+        }
+        i++;
+        document.write("i = " + i + "<br>");
+    }
+</script>
+</body>
+</html>

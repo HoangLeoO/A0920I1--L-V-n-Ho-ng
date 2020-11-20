@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculacor</title>
+</head>
+<body>
+<input type="text" id="number1">
+<input type="text" id="number2">
+<input type="button" onclick="addTwoNumber()" value="Add(+)">
+<input type="button" onclick="subTwoNumber()" value="Sub (-)">
+<input type="button" onclick="multiTwoNumber()" value="Mult (*)">
+<input type="button" onclick="divTwoNumber()" value="Div (/)">
+<script>
+    let number1 = document.getElementById("number1"); //khong bao gio .value cho bien toan cuc
+    let number2 = document.getElementById("number2");
+    function addTwoNumber() {
+        let result = parseInt(number1.value) +  parseInt(number2.value);
+        document.write(result)
+    }
+    function subTwoNumber() {
+        let result = number1.value - number2.value ;
+        document.write(result)
+    }
+    function multiTwoNumber() {
+        let result = number1.value * number2.value ;
+        document.write(result)
+    }
+    function divTwoNumber() {
+        let result = number1.value / number2.value ;
+        document.write(result)
+    }
+</script>
+</body>
+</html>

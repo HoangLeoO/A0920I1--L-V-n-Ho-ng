@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Name = prompt("Input Name : ") ;
+    let Cmnd = prompt("Input  CMND : " );
+    let Bithday = prompt("Input Bithday : ");
+    let email = prompt("Input Email : ");
+    let dia_chi = prompt("Input Address :");
+    let customer = prompt("Input Type Customer : ");
+    let Discount = prompt("Input Discount : ");
+    let Amount = prompt(" Input Amount : ");
+    let numberDay = prompt(" Input Number Day : ");
+    let TypeOfService = prompt("Input Type of service : ");
+    let TypeRoom = prompt("Input type room : ");
+    let sum ;
+     if(TypeOfService === "Villa"){
+         sum = 500 * numberDay * (1-Discount/100);
+     }else if(TypeOfService ==="House"){
+         sum = 300 * numberDay * (1-Discount/100);
+     }else if(TypeOfService === "Room"){
+         sum = 100 * numberDay * (1-Discount/100);
+     }
+     document.write(" Name :" + Name  + " ,Type Of Service :" +TypeOfService + " ,Number Day : " + numberDay
+         + " ,Type Room : " + TypeRoom + " , Discount : " + Discount + ",Total price : " + sum
+     )
+</script>
+</body>
+</html>

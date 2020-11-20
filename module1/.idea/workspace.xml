@@ -2,22 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935973ab-e04e-406f-827e-7fee4cc74586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/Baitap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/baitap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/baitap3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Baitap/taotable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Thuchanh/formcoban.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Thuchanh/tablesimple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. HTLM Form &amp; Table/Thuchanh/tkb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/chenma.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/nhumma.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Tongquanve_JavaScript/Thuc_hanh/script.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Bài tập/FunctionPrime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Bài tập/LuyenTap!.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Bài tập/LuyenTap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Bài tập/UngDungQLSanPham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Bài tập/feetAndMeters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Thực Hành/ChuyenDoiNhietDo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Thực Hành/TaoVaGoiHam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Funetion/Thực Hành/TimArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/BaiTap/Adam_Eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/BaiTap/Ca-ro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/BaiTap/CongTat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/BaiTap/HinhChuNhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/ThucHanh/DenPin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/ThucHanh/FunnyCircles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/ThucHanh/HinhTron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/ThucHanh/OPPDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 git&amp;html/bai tap/CV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 git&amp;html/thuc hanh/HTMLCoban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Baitap/Bienkieudulieutoantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Baitap/Celsius.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Baitap/HinhTron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Baitap/TienTe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Baitap/ungdungmaytinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Thuchanh/bienvakieudulieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Thuchanh/bienvakieudulieu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Thuchanh/toantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Baitap/DoYouLoveMe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Baitap/cannang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Baitap/statementSwitch-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Baitap/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/Sukienchuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/evenkeyboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/ifelse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/ifelse2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/ifelseif.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/namnhuam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/switch-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/switch-case2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/toantu3ngoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.Caudieukien/Thuchanh/toantu3ngoi2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/baitap/Number.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/baitap/luyentap1/Number1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/baitap/luyentap1/Number2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/baitap/luyentap1/fibo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/baitap/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/baitap/tong30sochiahetcho7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/thuchanh/useDoWhile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/thuchanh/useFor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/thuchanh/useFor2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/thuchanh/useWhile2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/thuchanh/usrForlong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cautruclap/thuchanh/usrWhile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Mảng/Baitap/userArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Mảng/ThucHanh/Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Mảng/ThucHanh/GiatrilonnhatArr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Mảng/ThucHanh/Timgiatritrongarr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Mảng/ThucHanh/daonguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs/yeuCau2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 git&amp;html/bai tap/Baitaptaodanhsach.html" beforeDir="false" afterPath="$PROJECT_DIR$/3 git&amp;html/bai tap/Baitaptaodanhsach.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +95,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\module1\8.Cautruclap\baitap" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ungdungmaytinh.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/6.Bien,kieudulieuvatoantu/Baitap/ungdungmaytinh.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.ungdungmaytinh.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,6 +133,31 @@
       <workItem from="1601621871414" duration="3327000" />
       <workItem from="1601639910987" duration="6567000" />
       <workItem from="1601647374741" duration="415000" />
+      <workItem from="1601894692871" duration="4612000" />
+      <workItem from="1601995637459" duration="1970000" />
+      <workItem from="1601998044002" duration="3467000" />
+      <workItem from="1602067485990" duration="5947000" />
+      <workItem from="1602241470452" duration="7064000" />
+      <workItem from="1602485659755" duration="1852000" />
+      <workItem from="1602505066856" duration="7075000" />
+      <workItem from="1602672735225" duration="11205000" />
+      <workItem from="1602856494345" duration="1799000" />
+      <workItem from="1603099640488" duration="595000" />
+      <workItem from="1603285402104" duration="2862000" />
+      <workItem from="1603455502211" duration="496000" />
+      <workItem from="1603456392909" duration="6212000" />
+      <workItem from="1603628818077" duration="2870000" />
+      <workItem from="1603710568780" duration="8704000" />
+      <workItem from="1604319557684" duration="5328000" />
+      <workItem from="1604490641970" duration="5995000" />
+      <workItem from="1604717864434" duration="176000" />
+      <workItem from="1604919715182" duration="2989000" />
+      <workItem from="1604923409680" duration="87000" />
+      <workItem from="1605271549527" duration="658000" />
+      <workItem from="1605274063814" duration="2517000" />
+      <workItem from="1605513263306" duration="1956000" />
+      <workItem from="1605524612370" duration="439000" />
+      <workItem from="1605525434353" duration="4153000" />
     </task>
     <servers />
   </component>
@@ -83,18 +168,90 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Inspections" timestamp="1601901693784">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1601901693784" />
+    <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1601999309380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601999309380" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601296582700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601296582700" />
+    <state width="1344" height="216" key="GridCell.Tab.0.bottom" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.0.center" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.0.left" timestamp="1601999452371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601999452371" />
+    <state width="1344" height="216" key="GridCell.Tab.0.right" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.1.bottom" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.1.center" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.1.left" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.1.right" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.2.bottom" timestamp="1601999452373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601999452373" />
+    <state width="1344" height="216" key="GridCell.Tab.2.center" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.2.left" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.2.right" timestamp="1601999452372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1601999452372" />
+    <state width="1344" height="216" key="GridCell.Tab.3.bottom" timestamp="1601999452373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601999452373" />
+    <state width="1344" height="216" key="GridCell.Tab.3.center" timestamp="1601999452373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1601999452373" />
+    <state width="1344" height="216" key="GridCell.Tab.3.left" timestamp="1601999452373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1601999452373" />
+    <state width="1344" height="216" key="GridCell.Tab.3.right" timestamp="1601999452373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1601999452373" />
     <state x="535" y="74" key="RollbackChangesDialog" timestamp="1601621691331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="535" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601621691330" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601624956223">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605527962531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601624956223" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605527962531" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
