@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Mobile(percent){
+
+        if(percent >= 0 && percent <= 100){
+            alert('Battery: '+ percent)
+        }
+        this.percent = percent;
+        this.contentMessage = '';
+        this.inbox = '';
+        this.sent = '';
+        this.isOn = true;
+        if(this.percent<=0){
+            this.isOn = false;
+        }
+        this.powerMobile = function(){
+            return this.isOn = !this.isOn;
+        }
+        this.checkPower = function(){
+            if(this.isOn){
+                alert('phone is on');
+            }else{
+                alert('phone is off');
+            }
+        }
+        this.charge = function(time){
+            if(this.percent < 100){
+                return this.percent += (time*2);
+            }
+        }
+
+        this.typingMessage = function(string){
+            if(this.isOn){
+                return this.contentMessage += string;
+                this.reduceBattery()
+            }else{
+                return;
+            }
+        }
+
+        this.reciveInbox = function(Message){
+            if(this.isOn){
+                return this.inbox = Message;
+            }else{
+                return;
+            }
+        }
+
+        this.sendMess = function (otherPhone) {
+            if (this.isOn) {
+                otherPhone.reciveInbox(this.contentMessage);
+                this.sent = this.contentMessage;
+                this.contentMessage;
+                this.reduceBattery()
+            } else {
+                return;
+            }
+
+        }
+
+        this.reduceBattery = function(){
+            return percent -=1;
+        }
+
+    }
+
+    let iphone =  new Mobile(50);
+    let samsung = new Mobile(90);
+
+    iphone.charge(10);
+    console.log(iphone.percent);
+
+    console.log(iphone,samsung);
+    iphone.typingMessage('tối nay chỗ cũ');
+    iphone.sendMess(samsung);
+    console.log(iphone,samsung);
+
+</script>
+</body>
+</html>

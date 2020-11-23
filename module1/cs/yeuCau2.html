@@ -5,6 +5,55 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let Name = "Hoàng" ;
+    let Cmnd = "123";
+    let Bithday = "9/1/2001";
+    let email = "123@gmail";
+    let dia_chi = "123456" ;
+    let customer = "Diamond" ;
+    let Discount = "30" ;
+    let Amount = "3";
+    let numberDay = "7" ;
+    let TypeOfService = "Villa" ;
+    let TypeRoom = "Vip";
+    let sum ;
 
+    let choose = parseInt(prompt("1. Hiển thị thông tinh khách hàng. " + "\n" +
+            "2. Chỉnh sửa thông tin khách hàng. " + "\n" +
+            "3. Hiển thị giá  sau khi được giảm giá. "
+    ));
+        switch (choose) {
+            case 1 :{
+                alert("1.Tên" + name + "\n" + "2.cmnd" + Cmnd + "\n" + "3.Ngày sinh " + Bithday + "\n" +
+                    "4.Email" + email + "\n" + "5.Địa chỉ" + dia_chi + "\n" + "6.Loại Dịch vụ" + TypeOfService + "\n" +
+                    "7.loại phòng " + TypeRoom + "\n" + "8.Loại khách hàng" + customer + "\n" + "9.Số  ngày thuê" + numberDay + "\n" +
+                    "10.Giảm giá " + Discount + "\n" + "11.Số người đi cùng " + Amount + "\n"  );
+            }
+            break;
+            case 2 : {
+                let chooseEdit = parseInt(prompt("1.Tên" + name + "\n" + "2.cmnd" + Cmnd + "\n" + "3.Ngày sinh " + Bithday + "\n" +
+                    "4.Email" + email + "\n" + "5.Địa chỉ" + dia_chi + "\n" + "6.Loại Dịch vụ" + TypeOfService + "\n" +
+                    "7.loại phòng " + TypeRoom + "\n" + "8.Loại khách hàng" + customer + "\n" + "9.Số  ngày thuê" + numberDay + "\n" +
+                    "10.Giảm giá " + Discount + "\n" + "11.Số người đi cùng " + Amount + "\n"));
+
+                switch (chooseEdit) {
+                    case 1 : {
+                        name = prompt("Enter Name :")
+                    }
+                    default : {
+                        alert("failed");
+                    }
+                }
+                alert("Tên" + name + "\n" + "cmnd" + Cmnd + "\n" + "Ngày sinh " + Bithday + "\n" +
+                    "Email" + email + "\n" + "Địa chỉ" + dia_chi + "\n" + "Loại Dịch vụ" + TypeOfService + "\n" +
+                    "loại phòng " + TypeRoom + "\n" + "Loại khách hàng" + customer + "\n" + "Số  ngày thuê" + numberDay + "\n" +
+                    "Giảm giá " + Discount + "\n" + "Số người đi cùng " + Amount + "\n");
+            }
+            default : {
+               alert("Sự lựa chọn của bạn không có trong trình đơn");
+            }
+        }
+</script>
 </body>
 </html>

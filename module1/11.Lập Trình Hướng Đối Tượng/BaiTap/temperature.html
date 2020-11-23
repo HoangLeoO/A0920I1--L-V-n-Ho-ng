@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Temperature(C){
+        this.C = C;
+
+        this.getConvertKevin = function(){
+            return C + 273.15;
+        }
+
+        this.getConvertF = function(){
+            return 9/5 * C + 32;
+        }
+
+    }
+
+    let C = new Temperature(30);
+
+    let F = C.getConvertF();
+    let kevin = C.getConvertKevin();
+
+    console.log(F);
+    console.log(kevin);
+
+</script>
+</body>
+</html>
