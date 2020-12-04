@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Title$</title>
+</head>
+<body>
+<script>
+    let a =[];
+    let b = [];
+    for(let i = 0 ; i <=50;i++) {
+        a.push(i);
+
+            if (a[i] < 2) {
+
+            } else {
+                for (let n = 2; n < a[i] - 1; n++) {
+                    if (a[i] % n === 0) {
+                        break;
+                    }
+                    b.push(a[i]);
+                }
+            }
+
+        }
+    document.write(" Mảng a : " + a + "<br>")  ;
+
+    document.write("Mảng b : " + b);
+</script>
+</body>
+</html>

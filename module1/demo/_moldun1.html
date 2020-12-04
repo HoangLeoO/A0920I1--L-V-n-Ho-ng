@@ -51,7 +51,7 @@
             temp+="</tr>";
         }
         temp+="</table>";
-        temp+="<button onclick='addStudent()'>Add Student</button>"
+        temp+="<button onclick='addStudent()'>Add Student</button>";
         document.writeln(temp);
     }
     function addStudent() {
@@ -60,7 +60,7 @@
         temp+="Age: <input type='number' id='age'><br>";
         temp+="Address: <input type='text' id='address'><br>";
         temp+="Mark: <input type='number' id='mark'><br>";
-        temp+="<button onclick='successAddStudent()'>Add Student</button>"
+        temp+="<button onclick='successAddStudent()'>Add Student</button>";
         document.writeln(temp);
     }
     function successAddStudent() {
@@ -77,7 +77,7 @@
         temp+="Age: <input type='number' id='age' value='"+listStudent[i].getAge()+"'><br>";
         temp+="Address: <input type='text' id='address' value='"+listStudent[i].getAddress()+"'><br>";
         temp+="Mark: <input type='number' id='mark' value='"+listStudent[i].getMark()+"'><br>";
-        temp+="<button onclick='successEditStudent("+i+")'>Edit Student</button>"
+        temp+="<button onclick='successEditStudent("+i+")'>Edit Student</button>";
         document.writeln(temp);
     }
     function successEditStudent(i) {

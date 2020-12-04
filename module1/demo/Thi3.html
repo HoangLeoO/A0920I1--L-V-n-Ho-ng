@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class So_Tiep_Kiem {
+        constructor(maSo,loaiTiepKiem,hoVaTen,chungMinhNhanDan,ngayMoSo,soTienGui) {
+            this.maSo = maSo ;
+            this.loaiTiepKiem = loaiTiepKiem ;
+            this.hoVaTen = hoVaTen ;
+            this.chungMinhNhanDan = chungMinhNhanDan ;
+            this.ngayMoSo = ngayMoSo ;
+            this.soTienGui = soTienGui ;
+        }
+        getMaSo(){
+            return this.maSo ;
+        }
+        getLoaiTiepKiem(){
+            return this.loaiTiepKiem ;
+        }
+        getHoVaTen(){
+            return this.hoVaTen ;
+        }
+        getChungMinhNhanDan(){
+            return this.chungMinhNhanDan ;
+        }
+        getNgayMoSo(){
+            return this.ngayMoSo;
+        }
+        getSoTienGui(){
+            return this.soTienGui ;
+        }
+    }
+    let DSSoTiepKiem = [];
+    DSSoTiepKiem.push(new So_Tiep_Kiem("A1234","qwertyuiop","Lê Văn Hoàng ",201801173,"25-11-2020",30000));
+    function displaySoTiepKiem() {
+        document.body.innerHTML="";
+        let temp ="<table border='1'>";
+        temp+="<tr>";
+        temp+="<th width='200px'>Mã Sổ</th>";
+        temp+="<th width='200px'>Loại Tiếp Kiệm</th>";
+        temp+="<th width='200px'>Họ Và Tên</th>";
+        temp+="<th width='200px'>Chứng Minh Nhân Dân</th>";
+        temp+="<th width='200px'>Ngày Mở Sổ</th>";
+        temp+="<th width='200px'>Số Tiền Gửi </th>";
+        temp+="</tr>";
+        for(let i= 0;i<DSSoTiepKiem.length;i++){
+            temp+="<tr>";
+            temp+="<td>"+DSSoTiepKiem[i].getMaSo()+"</td>";
+            temp+="<td>"+DSSoTiepKiem[i].getLoaiTiepKiem()+"</td>";
+            temp+="<td>"+DSSoTiepKiem[i].getHoVaTen()+"</td>";
+            temp+="<td>"+DSSoTiepKiem[i].getChungMinhNhanDan()+"</td>";
+            temp+="<td>"+DSSoTiepKiem[i].getNgayMoSo()+"</td>";
+            temp+="<td>"+DSSoTiepKiem[i].getSoTienGui()+"</td>";
+            temp+="</tr>";
+        }
+        temp+="</table>";
+
+        temp+="<button onclick='AddSoTiepKiem()'>Add Student</button>";
+        document.writeln(temp);
+    }
+    //     document.writeln(temp);
+    // }
+    function AddSoTiepKiem(){
+        document.body.innerHTML="";
+        let temp = "Ma_So: <input type='text' id='MaSo'><br>";
+        temp+="Loai_Tiep_Kiem: <input type='text' id='LoaiTiepKiem'><br>";
+        temp+="Ho_Va_Ten: <input type='text' id='HoVaTen'><br>";
+        temp+="Chung_Minh_Nhan_Dan: <input type='number' id='ChungMinhNhanDan'><br>";
+        temp+="Ngay_Mo_So: <input type='date' id='NgayMoSo'><br>";
+        temp+="So_Tien_Gui: <input type='number' id='SoTienGui'><br>";
+        temp+="<button onclick='successAddSoTiepKiem()'>Add Sổ Tiếp Kiệm</button>";
+        document.writeln(temp);
+    }
+    function successAddSoTiepKiem() {
+        let Ma_So = document.getElementById("MaSo").value;
+        let Loai_Tiep_Kiem = document.getElementById("LoaiTiepKiem").value;
+        let Ho_Va_Ten = document.getElementById("HoVaTen").value;
+        let Chung_Minh_Nhan_Dan = document.getElementById("ChungMinhNhanDan").value;
+        let Ngay_Mo_So = document.getElementById("NgayMoSo").value;
+        let So_Tien_Gui = document.getElementById("SoTienGui").value;
+        listStudent.push(new So_Tiep_Kiem(Ma_So,Loai_Tiep_Kiem,Ho_Va_Ten,Chung_Minh_Nhan_Dan,Ngay_Mo_So,So_Tien_Gui));
+        displaySoTiepKiem();
+    }
+    displaySoTiepKiem();
+</script>
+</body>
+</html>

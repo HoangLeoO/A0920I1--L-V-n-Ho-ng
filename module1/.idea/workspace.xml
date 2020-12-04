@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935973ab-e04e-406f-827e-7fee4cc74586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/BaiTap/mobile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Lập Trình Hướng Đối Tượng/BaiTap/temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/_moldun1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThiVuotModul/ThiVuocModul.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/Thi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/Thi2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/Thi3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/yeuCau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/cs/yeuCau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Baitap/Bienkieudulieutoantu.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.Bien,kieudulieuvatoantu/Baitap/Bienkieudulieutoantu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Cautruclap/baitap/Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/8.Cautruclap/baitap/Number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/_moldun1.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_moldun1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +107,7 @@
       <workItem from="1605525434353" duration="4153000" />
       <workItem from="1605876320118" duration="816000" />
       <workItem from="1606125684174" duration="2411000" />
+      <workItem from="1606301304573" duration="8675000" />
     </task>
     <servers />
   </component>

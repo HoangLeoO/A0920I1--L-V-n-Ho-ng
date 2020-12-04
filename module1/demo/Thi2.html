@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class phanSo1 {
+        constructor(tuSo1,mauSo1) {
+            this.tuSo1 = tuSo1 ;
+            this.mauSo1 = mauSo1 ;
+        }
+        getTuSo1(){
+            return this.tuSo1 ;
+        }
+        setTuSo1(value){
+             this.tuSo1 = value ;
+        }
+        getMauSo1(){
+            return this.mauSo1;
+        }
+        setMauSo1(value){
+            this.mauSo1 = value ;
+        }
+        phan_So1(){
+            return this.tuSo1/this.mauSo1;
+        }
+    }
+    class phanSo2 {
+        constructor(tuSo2,mauSo2) {
+            this.tuSo2 = tuSo2 ;
+            this.mauSo2 = mauSo2 ;
+        }
+        getTuSo2(){
+            return this.tuSo2 ;
+        }
+        setTuSo2(value){
+            this.tuSo2 = value ;
+        }
+        getMauSo2(){
+            return this.mauSo1;
+        }
+        setMauSo2(value){
+            this.mauSo2 = value ;
+        }
+        phan_So2(){
+            return this.tuSo2/this.mauSo2;
+        }
+    }
+    let PhanSo1 = new phanSo1(1,2);
+    let PhanSo2 = new phanSo2(2,4);
+     if(PhanSo1.phan_So1() === PhanSo2.phan_So2())
+     {
+       alert("True");
+     }else {
+         alert("False");
+     }
+
+</script>
+</body>
+</html>
