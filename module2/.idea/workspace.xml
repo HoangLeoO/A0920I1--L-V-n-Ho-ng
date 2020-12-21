@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ddfb601-4cd5-4ba3-b139-10715ef67051" name="Default Changelist" comment="" />
+    <list default="true" id="0ddfb601-4cd5-4ba3-b139-10715ef67051" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/ArrayAndMethod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/out/production/ArrayAndMethod/BaiTap/AddElementArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/out/production/ArrayAndMethod/ThucHanh/MethodCelsiusAndFahrenheit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/out/production/ArrayAndMethod/ThucHanh/ReverseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/out/production/ArrayAndMethod/ThucHanh/SearchValueArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/out/production/ArrayAndMethod/ThucHanh/SearchValueMaximumInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/out/production/ArrayAndMethod/ThucHanh/SmallestValueArrayMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/src/BaiTap/AddElementArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/src/ThucHanh/MethodCelsiusAndFahrenheit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/src/ThucHanh/ReverseArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/src/ThucHanh/SearchValueArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/src/ThucHanh/SearchValueMaximumInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayAndMethod/src/ThucHanh/SmallestValueArrayMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/IntrodutionToJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/BaiTap/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/BaiTap/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/BaiTap/NumberToWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/ThucHanh/Bmi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/ThucHanh/LeapYear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/ThucHanh/LinearEquationResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/ThucHanh/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/ThucHanh/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/out/production/IntrodutionToJava/ThucHanh/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/BaiTap/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/BaiTap/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/BaiTap/NumberToWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/ThucHanh/Bmi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/ThucHanh/LeapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/ThucHanh/LinearEquationResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/ThucHanh/Operator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/ThucHanh/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntrodutionToJava/src/ThucHanh/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/LoopJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/out/production/LoopJava/BaiTap/GeometryType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/out/production/LoopJava/BaiTap/SNT100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/out/production/LoopJava/BaiTap/SNT20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/out/production/LoopJava/ThucHanh/GreatestCommonFactor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/out/production/LoopJava/ThucHanh/MenuFigure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/out/production/LoopJava/ThucHanh/SNT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/out/production/LoopJava/ThucHanh/interest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/src/BaiTap/GeometryType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/src/BaiTap/SNT100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/src/BaiTap/SNT20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/src/ThucHanh/GreatestCommonFactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/src/ThucHanh/MenuFigure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/src/ThucHanh/SNT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopJava/src/ThucHanh/interest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moudul2/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +88,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
@@ -35,6 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607669310165</updated>
       <workItem from="1607669311728" duration="711000" />
+      <workItem from="1607944177751" duration="552000" />
+      <workItem from="1607944764507" duration="273000" />
     </task>
     <servers />
   </component>
@@ -42,9 +111,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1607944969013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607944969013" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1607669358428">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607669358428" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1607944764123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607944764123" />
+    <state x="65" y="0" key="new project wizard" timestamp="1607944992676">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607944992676" />
   </component>
 </project>
