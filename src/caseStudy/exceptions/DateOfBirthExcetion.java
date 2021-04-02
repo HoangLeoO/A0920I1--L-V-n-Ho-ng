@@ -1,4 +1,7 @@
 package caseStudy.exceptions;
 
-public class DateOfBirthExcetion {
+public class DateOfBirthExcetion extends Exception {
+    public DateOfBirthExcetion(String message) {
+        super(message);
+    }
 }

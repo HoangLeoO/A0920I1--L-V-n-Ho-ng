@@ -1,4 +1,7 @@
 package caseStudy.exceptions;
 
-public class OptionServiceExcetion {
+public class OptionServiceExcetion extends Exception{
+    public OptionServiceExcetion(String message) {
+        super(message);
+    }
 }

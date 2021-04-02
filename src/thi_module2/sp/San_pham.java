@@ -1,4 +1,4 @@
-package thi_module2.Main;
+package thi_module2.sp;
 
 public abstract class San_pham {
     private int Id ;
@@ -79,4 +79,5 @@ public abstract class San_pham {
                 ", Nha San Xuat " + Nsx + '\'' +
                 '}';
     }
+    public abstract String showInfor();
 }

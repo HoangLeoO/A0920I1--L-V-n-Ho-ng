@@ -1,11 +1,13 @@
 package caseStudy.controllers._0_main;
 
+import caseStudy.controllers._1_menu_services.AddServicesMainMenu;
+import caseStudy.controllers._1_menu_services.ShowServicesMainMenu;
+
 import java.util.Scanner;
 
 public class MainController {
-    Scanner scanner = new Scanner(System.in);
-    int choose;
     public static void displayMainMenu(){
+        Scanner scanner = new Scanner(System.in);
         String choose;
         do{
             System.out.println(
@@ -15,8 +17,8 @@ public class MainController {
                             + "3.Add new customer \n"
                             + "4.Show information of customer \n"
                             + "5.Add new booking \n"
-                            + "7.Show informaton of Employee \n"
-                            + "9.Exit \n"
+                            + "6.Show informaton of Employee \n"
+                            + "7.Exit \n"
                             + "-----------------------------------"
             );
             System.out.println("Please choose ");
@@ -28,18 +30,18 @@ public class MainController {
                 case "2":
                     ShowServicesMainMenu.showServices();
                     break;
-                case "3":
-                    AddCustomer.addNewCustomer();
-                    break;
-                case "4":
-                    ShowCustomer.showInformationCustomers();
-                    break;
-                case "5":
-                    AddBooking.addNewBooking();
-                    break;
-                case "6":
-                    ShowEmployee.showInforEmployee();
-                    break;
+//                case "3":
+//                    AddCustomer.addNewCustomer();
+//                    break;
+//                case "4":
+//                    ShowCustomer.showInformationCustomers();
+//                    break;
+//                case "5":
+//                    AddBooking.addNewBooking();
+//                    break;
+//                case "6":
+//                    ShowEmployee.showInforEmployee();
+//                    break;
                 case "7":
                     System.exit(0);
                     break;

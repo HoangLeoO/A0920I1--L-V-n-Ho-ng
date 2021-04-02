@@ -1,4 +1,7 @@
 package caseStudy.exceptions;
 
-public class NameServicesException {
+public class NameServicesException extends Exception {
+    public NameServicesException(String message) {
+        super(message);
+    }
 }

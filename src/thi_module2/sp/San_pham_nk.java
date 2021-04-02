@@ -1,6 +1,9 @@
-package thi_module2.Main;
+package thi_module2.sp;
 
-public class San_pham_nk extends San_pham {
+import caseStudy.models.House;
+import thi_module2.common.Read;
+
+public class San_pham_nk extends San_pham implements Comparable<San_pham_nk>{
     private double Gnk;
     private double Tnk;
 
@@ -16,6 +19,9 @@ public class San_pham_nk extends San_pham {
         super(id, msp, nameSP, gb, sl, nsx);
         Gnk = gnk;
         Tnk = tnk;
+    }
+
+    public San_pham_nk(int id, String msp, String nameSp, double gb, int sl, String nsx, double gnk, String qgnsp) {
     }
 
     public double getGnk() {
@@ -40,5 +46,26 @@ public class San_pham_nk extends San_pham {
                 "Gia Nhap Khau :" + Gnk +
                 ", Thue Nhap Khau  :" + Tnk
                 ;
+    }
+
+    @Override
+    public String showInfor() {
+        return null;
+    }
+
+    public String addFile() {
+        return getId() + Read.COMMA +
+                getMsp() + Read.COMMA +
+                getNameSP() + Read.COMMA +
+                getGb() + Read.COMMA +
+                getSl() + Read.COMMA +
+                getNsx() + Read.COMMA +
+                getGnk() + Read.COMMA + getTnk();
+
+    }
+
+    @Override
+    public int compareTo(San_pham_nk o) {
+            return this.getNameSP().compareTo(o.getNameSP());
     }
 }

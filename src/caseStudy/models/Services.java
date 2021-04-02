@@ -78,4 +78,6 @@ public abstract class Services {
                 ", Kiểu thuê " + rental_type + '\'' +
                 '}';
     }
+    public abstract String showInfor();
+
 }

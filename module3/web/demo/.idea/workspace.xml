@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91907343-610c-44a4-ad8b-27a07005f58c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Bai7/BT_Layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai7/TH_RWD_DIV_CSS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai7/TH.TaoBoCuDonGian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai7/TH.TaoBoCuDonGian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/module2/JavaSchool/demo1/bai4/SortString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/module2/JavaSchool/demo1/bai4/SortString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/commons/FileUntil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/commons/FileUntil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/commons/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/commons/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/controllers/RegularException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/controllers/RegularException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/controllers/_0_main/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/controllers/_0_main/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/controllers/_1_menu_services/AddServicesMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/controllers/_1_menu_services/AddServicesMainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/controllers/_1_menu_services/ShowServicesMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/controllers/_1_menu_services/ShowServicesMainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/data/villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/data/villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/AreaServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/AreaServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/CostServicesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/CostServicesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/CustomerInformationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/CustomerInformationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/DateOfBirthExcetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/DateOfBirthExcetion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/IdServicesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/IdServicesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/NameServicesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/NameServicesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/NumberFormatExcetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/NumberFormatExcetion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/OptionServiceExcetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/exceptions/OptionServiceExcetion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/models/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/models/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/caseStudy/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/caseStudy/models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/string_regex/thuc_hanh/EmailExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/string_regex/thuc_hanh/EmailExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/string_regex/thuc_hanh/EmailExampleTes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/string_regex/thuc_hanh/EmailExampleTes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/common/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/common/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/common/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/common/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/contrllers/AddMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/contrllers/AddMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/contrllers/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/contrllers/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/contrllers/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/contrllers/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/data/san_pham_nk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/data/san_pham_nk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/data/san_pham_xk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/data/san_pham_xk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/sp/San_pham.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/sp/San_pham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/sp/San_pham_nk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/sp/San_pham_nk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/thi_module2/sp/San_pham_xk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/thi_module2/sp/San_pham_xk.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\codegym\module3\web\demo\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qCV0wgxmdJUec7JgNI3HrFbcFd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.44" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91907343-610c-44a4-ad8b-27a07005f58c" name="Default Changelist" comment="" />
+      <created>1616583340291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616583340291</updated>
+      <workItem from="1616583345354" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1616583439189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616583439189" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616583347289">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1616583347289" />
+    <state x="65" y="0" key="new project wizard" timestamp="1616583440091">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1616583440091" />
+  </component>
+</project>

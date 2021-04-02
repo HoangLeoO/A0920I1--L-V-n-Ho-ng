@@ -1,6 +1,5 @@
-package caseStudy.controllers;
+package caseStudy.commons;
 
-import caseStudy.commons.FileUntil;
 import caseStudy.models.House;
 import caseStudy.models.Room;
 import caseStudy.models.Villa;
@@ -9,9 +8,9 @@ import java.util.List;
 
 public class ReadFile {
     public static final String COMMA = ",";
-    public static final String PATH_FILE_VILLA = "src/data/villa.csv";
-    public static final String PATH_FILE_ROOM = "src/data/room.csv";
-    public static final String PATH_FILE_HOUSE = "src/data/house.csv";
+    public static final String PATH_FILE_VILLA = "src/caseStudy/data/villa.csv";
+    public static final String PATH_FILE_ROOM = "src/caseStudy/data/room.csv";
+    public static final String PATH_FILE_HOUSE = "src/caseStudy/data/house.csv";
     public static List<Villa> villaList;
     public static List<House> houseList;
     public static List<Room> roomList;
