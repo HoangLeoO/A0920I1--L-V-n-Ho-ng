@@ -1,18 +1,24 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ADMIN
-  Date: 3/29/2021
-  Time: 7:58 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>List Customer</title>
-  </head>
-  <body>
-  <div>
-    
-  </div>
-  </body>
+</head>
+<body>
+<h1>List Customer</h1>
+<table>
+    <tr>
+        <th> Tên </th>
+        <th> Ngày Sinh </th>
+        <th> Địa Chỉ </th>
+        <th> Ảnh </th>
+    </tr>
+    <tr>
+        <th>Mai Văn Hoàng</th>
+        <th>1983-08-20</th>
+        <th>Hà Nội</th>
+        <th><img src="F:\codegym\module3\HinhAnh\item2.jpg"></th>
+    </tr>
+</table>
+</body>
 </html>

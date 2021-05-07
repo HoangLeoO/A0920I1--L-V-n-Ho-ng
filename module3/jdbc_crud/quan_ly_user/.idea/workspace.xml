@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a182e858-649e-4907-af3b-81f4143c0062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/src/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/src/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/src/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/th_ungDungQLKH.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/web/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/web/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/web/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/web/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/th_ungDungQLKH/web/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/.idea/artifacts/ung_dung_qlsp_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/.idea/libraries/servlet_api_2_5_6_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/src/controller/CreateProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/src/controller/DeleteProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/src/controller/EditProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/src/controller/ListProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/src/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/src/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/ung_dung_qlsp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/web/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/web/product/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/web/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/web/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC/ung_dung_qlsp/web/product/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Slide/DemoCRUD1/DemoCRUD/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Slide/DemoCRUD1/DemoCRUD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Slide/DemoCRUD1/DemoCRUD/DemoCRUD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Slide/DemoCRUD2/DemoCRUD/DemoCRUD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/baitap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/controller/DeleteStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/controller/SaveStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/controller/StudentListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/dao/IStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/ultils/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/web/student/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/web/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/dao/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/web/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/web/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/web/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jspVaJstl/baitap2/baitap2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jspVaJstl/baitap2/src/controller/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jspVaJstl/baitap2/src/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jspVaJstl/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jspVaJstl/baiTap1/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../jspVaJstl/baiTap1/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\codegym\module3\jdbc_crud\quan_ly_user\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r97H1wtvw5TV1F4HW4XdQ0goHH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../user" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a182e858-649e-4907-af3b-81f4143c0062" name="Default Changelist" comment="" />
+      <created>1618376360440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618376360440</updated>
+      <workItem from="1618376361857" duration="78000" />
+      <workItem from="1618811510175" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1618811597866">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618811597866" />
+    <state x="65" y="0" key="new project wizard" timestamp="1618376437813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1618376437813" />
+  </component>
+</project>
