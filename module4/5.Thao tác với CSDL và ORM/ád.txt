@@ -1,0 +1,62 @@
+1.KHái niệm ORM :
+-ORM là khái niệm về kỹ thuật ánh xạ giữa đối tượng trong lập trình với các đối tượng
+trong csdl quan hệ
+-ORM cho phép truy xuất dữ liệu dễ dàng thông qua các đối tượng.
+2.Ưu nhược điêm ORM :
+-Ưu điểm :+ quản lý dữ liệu tập trung trong code.
++Các thao tác với dữ liệu được thực hiện tự động.
++Tránh được các lỗi cú pháp trong SQL
++Hỗ trợ giao dịch (transaction)
++Có thể cache dữ liệu để truy xuất nhanh hơn 
+-Nhược điểm : 
++Đổi với các dự án lơn , hiện năng truy xuất dữ liệu trường hạn chế .
++Lập trình viên dễ bị rơi vào bấy truy xuất dữ liệu quá nhiều (vì quá dễ để truy xuất)
+ảnh hưởng đến hiệu năng của hệ thống 
++ Đối với các thao tác phức tạp,có thể cần đến việc sử dụng SQL thuần 
+3.JPA :
+-Java Persitance API cung cấp các đặc tả để duy trì , đọc , quản lý  dữ liệu từ đối
+tươngj java đến CSDL quan hệ
+-JPA cung cấp mô hình cho phép ánh xạ các đối tượng trong ngôn ngữ lập trình đến các
+đối tượng trong cơ sở dữ liệu.
+4.Entity :
+-JPA sẽ quản lý các đối tượng gọi là Entity
+-Entity là đối tượng đại diện cho dữ liệu trong ứng dụng 
+-Thường là POJO(Paln Old java Object)
+-Entity sẽ được ánh xạ đến 1 bảng của CSDL
+-Trong JPA 1 Entity phải tuân thủ :
+ a.Phải có annotation@Entity
+ b.Phải có constructor không tham số 
+ c.Không được khai báo class final
+ d.Các biến đối tượng không được để public
+-Persistance context là tập thể hiện các entity được quản lý , tồn tại trong một 
+kho dữ liệu
+-Interface EntityManager:khai báo các phương thức để tương tác với cở sở dữ liệu (CRUD)
+
+@Column : dinh nghia kieu du lieu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

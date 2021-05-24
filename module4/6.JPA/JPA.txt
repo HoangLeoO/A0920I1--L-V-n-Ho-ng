@@ -1,0 +1,17 @@
+1.Phân biệt ORM , JPA , hirebe :
+-ORM (Object - Relational Mapping)  là khái niệm về kỹ thuật liên kết giữa các đối tượng trong  ngôn ngữ lập trình với CSDL
+quan hệ.
+-JPA là tập hợp các interface dùng cho  lập trình ứng dụng java mô tả cách quản lý các mối quan hệ dữ liệu , quản lý entity , quản
+lý cách thức entity truy vấn dữ liệu 
+Hibemate : là ORM framework triển khai(implement) laị những gì JPA đã mô tả.
+2.Spring Data JPA /
+-Giúp cho việc sử dụng jpa trong ứng dụng spring trở nên dễ dàng hơn , Spring Data Jpa là  1 phần của dự án  Spring Data.
+-Có theere sử dụng chung với các framework khác hibemate , EclipseLink,OpenJPA
+-Spring data jpa giúp cải tiến jpa tiêu chuẩn , đơn giản hóa tầng truy xuất dữ liệu , tự tạo repository,tự tạo truy vấn thông 
+qua tên phương thức,phân trang ,sắp xếp
+3.
+-Spring Data JPA có 4 interface chính :
+a.Repository
+b.CRUDRepository
+c.PagingAndSortingRepository
+d.JpaRepository

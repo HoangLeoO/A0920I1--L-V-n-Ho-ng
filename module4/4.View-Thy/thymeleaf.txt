@@ -1,0 +1,37 @@
+ - Thymeleaf là một bộ xử lý view thay cho jsp được sử dụng cho các ứng dụng 
+web và các ứng dụng độc lập.
+- Thymeleaf có thể xử lý HTML, XML, JavaScript, CSS và cả text .
++HTML : hiển thi .
++XML : Lưu trữ .
++Raw : kiễu dữ liệu hỗn hợp 
+-Ưu điểm :
++ Nhanh 
+-Các biểu thức :
+ + Biểu thức với biến: ${...}
+ + Biểu thức với thuộc tính: *{...}
+ + Biểu thức với Message: #{...}
+ + Biểu thức với URL: @{...} dung cho thuoc tinh src , href
+ + Biểu thức với phân đoạn: ~{...}
+-Các Hằng Giá Trị :
++ Hằng văn bản: ’CodeGym', ’Việt Nam’,…
++  Hằng số: 0, 34, 3.0, 12.3,…
++ Hằng giá trị lô gic:true, false
++ Hằng null: null
++ Hằng token: one,sometext, main,…
+-Vòng lặp trong thymeleaf :
++Cú pháp th:each ="object,iterStart : ${arr}"
++Trong đó đối tượng iterStart cung cấp các trạng thái của vòng lặp 
++index: chỉ số của lần lặp hiện tại , bắt đầu từ 0
++count : chỉ số của lần lặp hiện tại , bắt đầu từ một 
++size : tổng các phần tử 
++curent : phần tử hiện tại của vòng lặp :
++even hoặc odd : vòng lặp chẵn , lẻ 
+first,lát : vòng lặp đầu tiêng , vòng lặp cuối cùng . 
+-Biểu thức điều kiện : th:if="${conditional}"
++ th:if trả về true trong các  trường hợp sau :
+.Một giá trị boolean là true 
+.Một số không phải là số 0 
+.Một ký tự không phải 0
+.Một chuỗi không phải "false" , "no", "off"
+.Một giá trị không phải boolean , số , ký tự , chuỗi (ví dụ  như đối tượng student không null)
+-fragment là một đoạn mã code

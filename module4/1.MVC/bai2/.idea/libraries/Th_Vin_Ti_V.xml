@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Thư Viện Tải Về">
+    <CLASSES>
+      <root url="jar://C:/Thư Viện Tải Về/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://C:/Thư Viện Tải Về/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="file://C:/Thư Viện Tải Về" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/Thư Viện Tải Về" recursive="false" />
+  </library>
+</component>
