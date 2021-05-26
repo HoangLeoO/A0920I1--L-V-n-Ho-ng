@@ -1,1 +1,30 @@
 http://www.thymeleaf.org
+
+new ModelAndView(logical_name_of_view,logical_name_of_model_data, actual_value_of_model_data);
+  - logical_name_of_view: tên của view chúng ta muốn hiển thị dữ liệu.
+
+      - logical_name_of_model_data: tên của đối tượng chứa dữ liệu.
+
+      - actual_value_of_model_data: đối tượng chứa dữ liệu.
+@GetMapping("/products")
+public ModelAndView listProducts(){
+    List<Product> products = productService.findAll();
+    ModelAndView modelAndView = new ModelAndView("/product/list","products",products);
+    return  modelAndView;
+}
+- "/product/list" : tên của view chúng ta muốn hiển thị dữ liệu
+
+      - "products" : tên của đối tượng chứa dữ liệu
+
+      - products: đối tượng chứa dữ liệu
+Ta sẽ tạo ra một thể hiện của lớp ProductServiecImpl như là một 
+Bean trong lớp cấu hình của ứng dụng sử dụng annotation @Bean như sau:
+@ComponentScan("com.codegym")
+public class ApplicationConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware{
+    
+    @Bean
+    public ProductService productService(){
+        return new ProductServiecImpl();
+    }
+...
+}
