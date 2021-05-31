@@ -14,7 +14,7 @@ public ModelAndView listProducts(){
 }
 - "/product/list" : tên của view chúng ta muốn hiển thị dữ liệu
 
-      - "products" : tên của đối tượng chứa dữ liệu
+      - "products" : tên của đối tượng chứa dữ liệu	
 
       - products: đối tượng chứa dữ liệu
 Ta sẽ tạo ra một thể hiện của lớp ProductServiecImpl như là một 

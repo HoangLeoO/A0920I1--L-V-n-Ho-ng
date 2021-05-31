@@ -1,16 +1,17 @@
 package com.example.bai1.service;
 
 import com.example.bai1.model.Student;
-
-import java.util.List;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 public interface StudentService {
     //List Student
-    List<Student> findAllStudent();
+    Page<Student> findAllStudent(Pageable pageable);
     //List Student Id
     Student findStudentById(int id);
     void saveStudent(Student student);
     void deleteStudentById(int id);
     //Search
-    List<Student> findStudentByName(String name);
+    Page<Student> findStudentByName(String name,Pageable pageable);
+
 }

@@ -1,0 +1,25 @@
+-Một trong những annotation quan trọng trong Spring đó là @ModelAttribute.
+Chúng ta sử dụng ModelAttribute như một cầu nối giữa Controller và View.
+Từ Controller chúng ta truyền các dữ liệu qua cho View thông qua ModelAttribute.
+Từ View chúng ta sẽ sử dụng Thymeleaf để đọc các dữ liệu từ model và hiển thị ra cho người dùng.
+
+Tầng View chúng ta sử dụng model để lấy các giá trị từ người dùng và gắn vào thuộc tính modelAttribute :
+<form:form method="POST" action="/spring-mvc-basics/addEmployee"
+  modelAttribute="employee">
+    <form:label path="name">Name</form:label>
+    <form:input path="name" />
+
+    <form:label path="id">Id</form:label>
+    <form:input path="id" />
+
+    <input type="submit" value="Submit" />
+</form:form>
+Ở tằng Controller ta sử dụng @ModelAttribute là tham số trong phương thức để lấy các giá trị từ view truyền vào:
+
+@RequestMapping(value = "/addEmployee", method = RequestMethod.POST)
+    public String submit( @ModelAttribute("employee") Employee employee) {
+        model.addAttribute("name", employee.getName());
+        model.addAttribute("id", employee.getId());
+        employeeMap.put(employee.getId(), employee);
+        return "employeeView";
+    }
