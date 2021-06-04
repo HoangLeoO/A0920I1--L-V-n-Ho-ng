@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{/login}">Home</a>
+<h1><a th:href="@{/}">From Dang Ky</a></h1>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/register}" method="post" th:object="${user}">
+    <input type="hidden" th:field="*{id}">
+    <label>Name</label><br>
+    <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+    <input type="text"  id="name" th:field="*{name}" ><br>
+    <label>Age</label><br>
+    <p th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></p>
+    <input type="text" id="age" th:field="*{age}"><br>
+    <label>Account</label><br>
+    <p th:if="${#fields.hasErrors('account')}" th:errors="*{account}"></p>
+    <input type="text"  id="account" th:field="*{account}" ><br>
+    <label>Password</label><br>
+    <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></p>
+    <input type="password" id="password" th:field="*{password}"><br>
+    <label>Email</label><br>
+    <p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
+    <input type="text" id="email" th:field="*{email}"><br>
+    <label>Address</label><br>
+    <p th:if="${#fields.hasErrors('address')}" th:errors="*{address}"></p>
+    <input type="text" id="address" th:field="*{address}"><br>
+    <button type="submit">Register</button>
+</form>
+</body>
+</html>

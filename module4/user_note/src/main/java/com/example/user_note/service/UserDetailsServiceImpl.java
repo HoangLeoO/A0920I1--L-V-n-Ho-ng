@@ -1,33 +1,57 @@
 package com.example.user_note.service;
 
-import com.example.user_note.model.Role;
-import com.example.user_note.model.User;
-import com.example.user_note.repository.UserRepository;
+import com.example.user_note.model.AppUser;
+import com.example.user_note.model.UserRole;
+import com.example.user_note.repository.AppUserRepository;
+import com.example.user_note.repository.UserRoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
-public class UserDetailsServiceImpl  implements UserDetailsService {
+@Service
+public class UserDetailsServiceImpl implements UserDetailsService {
+
     @Autowired
-    private UserRepository userRepository;
+    private AppUserRepository appUserRepository;
+
+    @Autowired
+    private UserRoleRepository userRoleRepository;
 
     @Override
-    @Transactional(readOnly = true)
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        User user = userRepository.findByUsername(username);
+    public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
+        AppUser appUser = this.appUserRepository.findByUsername(userName);
 
-        Set<GrantedAuthority> grantedAuthorities = new HashSet<>();
-        for (Role role : user.getRoles()){
-            grantedAuthorities.add(new SimpleGrantedAuthority(role.getName()));
+        if (appUser == null) {
+            System.out.println("User not found! " + userName);
+            throw new UsernameNotFoundException("User " + userName + " was not found in the database");
         }
 
-        return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), grantedAuthorities);
+        System.out.println("Found User: " + appUser);
+
+        // [ROLE_USER, ROLE_ADMIN,..]
+        List<UserRole> userRoles = this.userRoleRepository.findByAppUser(appUser);
+
+        List<GrantedAuthority> grantList = new ArrayList<GrantedAuthority>();
+        if (userRoles != null) {
+            for (UserRole userRole : userRoles) {
+                // ROLE_USER, ROLE_ADMIN,..
+                GrantedAuthority authority = new SimpleGrantedAuthority(userRole.getAppRole().getRoleName() );
+                grantList.add(authority);
+            }
+        }
+
+        UserDetails userDetails = (UserDetails) new User(appUser.getUserName(), //
+                appUser.getEncrytedPassword(), grantList);
+
+        return userDetails;
     }
+
 }
