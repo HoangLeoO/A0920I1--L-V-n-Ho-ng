@@ -1,5 +1,5 @@
 http://www.thymeleaf.org
-
+redirect
 new ModelAndView(logical_name_of_view,logical_name_of_model_data, actual_value_of_model_data);
   - logical_name_of_view: tên của view chúng ta muốn hiển thị dữ liệu.
 
