@@ -33,15 +33,15 @@ public class WebServiceConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable();
         http.authorizeRequests()
-                .antMatchers("/", "/login", "/signup", "/logout").permitAll()
+                .antMatchers("/", "/signup", "/logout").permitAll()
                 .antMatchers("/home", "/{id}/delete", "/edit","/{id}/edit", "/search","/addNote","/listNote","/{id}/deleteNote","/editNote","/searchNote","/{id}/editNote")
                 .access("hasAnyRole('ROLE_USER','ROLE_ADMIN')")
                 .antMatchers("/admin","/admin/memberName={name}",
                         "/admin/searchName={name}").access("hasRole('ROLE_ADMIN')")
                 .and().exceptionHandling().accessDeniedPage("/403");
 
-        http.authorizeRequests().and().formLogin().loginProcessingUrl("/j_spring_security_check").loginPage("/login")
+        http.authorizeRequests().and().formLogin().loginProcessingUrl("/j_spring_security_check").loginPage("/")
                 .usernameParameter("username").passwordParameter("password").defaultSuccessUrl("/home")
-                .failureUrl("/login?error=true").and().logout().logoutUrl("/logout").logoutSuccessUrl("/login");
+                .failureUrl("/login?error=true").and().logout().logoutUrl("/logout").logoutSuccessUrl("/");
     }
 }

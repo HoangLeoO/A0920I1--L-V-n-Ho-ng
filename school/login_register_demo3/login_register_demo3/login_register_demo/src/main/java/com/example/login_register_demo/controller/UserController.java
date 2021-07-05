@@ -33,7 +33,7 @@ public class UserController {
     UserEntityReporisoty userRepository;
 
 
-    @GetMapping("/login")
+    @GetMapping("/" )
     public  String showFromLogin(){
         return "/loginPage";
     }
