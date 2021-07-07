@@ -8,52 +8,52 @@ import java.util.List;
 public class Attach_Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int attach_service_id ;
+    private int attachServiceId ;
 
-    private String attach_service_name ;
+    private String attachServiceName ;
 
-    private Double attach_service_cost ;
+    private Double attachServiceCost ;
 
-    private int attach_service_unit;
+    private int attachServiceUnit;
 
     private String attach_service_status ;
 
-    @OneToMany(mappedBy = "attach_service")
-    private List<Contract_Detail> contract_details ;
+    @OneToMany(mappedBy = "attachService")
+    private List<Contract_Detail> contractDetails ;
 
     public Attach_Service() {
     }
 
-    public int getAttach_service_id() {
-        return attach_service_id;
+    public int getAttachServiceId() {
+        return attachServiceId;
     }
 
-    public void setAttach_service_id(int attach_service_id) {
-        this.attach_service_id = attach_service_id;
+    public void setAttachServiceId(int attachServiceId) {
+        this.attachServiceId = attachServiceId;
     }
 
-    public String getAttach_service_name() {
-        return attach_service_name;
+    public String getAttachServiceName() {
+        return attachServiceName;
     }
 
-    public void setAttach_service_name(String attach_service_name) {
-        this.attach_service_name = attach_service_name;
+    public void setAttachServiceName(String attachServiceName) {
+        this.attachServiceName = attachServiceName;
     }
 
-    public Double getAttach_service_cost() {
-        return attach_service_cost;
+    public Double getAttachServiceCost() {
+        return attachServiceCost;
     }
 
-    public void setAttach_service_cost(Double attach_service_cost) {
-        this.attach_service_cost = attach_service_cost;
+    public void setAttachServiceCost(Double attachServiceCost) {
+        this.attachServiceCost = attachServiceCost;
     }
 
-    public int getAttach_service_unit() {
-        return attach_service_unit;
+    public int getAttachServiceUnit() {
+        return attachServiceUnit;
     }
 
-    public void setAttach_service_unit(int attach_service_unit) {
-        this.attach_service_unit = attach_service_unit;
+    public void setAttachServiceUnit(int attachServiceUnit) {
+        this.attachServiceUnit = attachServiceUnit;
     }
 
     public String getAttach_service_status() {
@@ -64,11 +64,11 @@ public class Attach_Service {
         this.attach_service_status = attach_service_status;
     }
 
-    public List<Contract_Detail> getContract_details() {
-        return contract_details;
+    public List<Contract_Detail> getContractDetails() {
+        return contractDetails;
     }
 
-    public void setContract_details(List<Contract_Detail> contract_details) {
-        this.contract_details = contract_details;
+    public void setContractDetails(List<Contract_Detail> contractDetails) {
+        this.contractDetails = contractDetails;
     }
 }

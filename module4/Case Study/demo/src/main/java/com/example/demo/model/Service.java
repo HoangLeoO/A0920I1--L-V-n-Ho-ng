@@ -8,108 +8,108 @@ import java.util.List;
 public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int service_id ;
+    private int serviceId ;
 
-    private String service_name ;
+    private String serviceName ;
 
-    private String service_area ;
+    private String serviceArea ;
 
-    private String service_cost ;
+    private String serviceCost ;
 
-    private String service_max_people ;
+    private String serviceMaxPeople ;
 
-    private String standard_room ;
+    private String standardRoom ;
 
-    private String description_other_convenience ;
+    private String descriptionOtherConvenience ;
 
-    private Double pool_area ;
+    private Double poolArea ;
 
-    private int number_or_floors;
+    private int numberOrFloors;
 
     @OneToMany(mappedBy = "service")
     private List<Contract> contracts ;
 
     @ManyToOne
-    @JoinColumn(name = "rent_type_id")
-    private Rent_type rent_type ;
+    @JoinColumn(name = "rentTypeId")
+    private Rent_type rentType ;
 
     @ManyToOne
-    @JoinColumn(name = "service_type_id")
-    private Service_type service_type ;
+    @JoinColumn(name = "serviceTypeId")
+    private Service_type serviceType ;
 
     public Service() {
     }
 
-    public int getService_id() {
-        return service_id;
+    public int getServiceId() {
+        return serviceId;
     }
 
-    public void setService_id(int service_id) {
-        this.service_id = service_id;
+    public void setServiceId(int serviceId) {
+        this.serviceId = serviceId;
     }
 
-    public String getService_name() {
-        return service_name;
+    public String getServiceName() {
+        return serviceName;
     }
 
-    public void setService_name(String service_name) {
-        this.service_name = service_name;
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
     }
 
-    public String getService_area() {
-        return service_area;
+    public String getServiceArea() {
+        return serviceArea;
     }
 
-    public void setService_area(String service_area) {
-        this.service_area = service_area;
+    public void setServiceArea(String serviceArea) {
+        this.serviceArea = serviceArea;
     }
 
-    public String getService_cost() {
-        return service_cost;
+    public String getServiceCost() {
+        return serviceCost;
     }
 
-    public void setService_cost(String service_cost) {
-        this.service_cost = service_cost;
+    public void setServiceCost(String serviceCost) {
+        this.serviceCost = serviceCost;
     }
 
-    public String getService_max_people() {
-        return service_max_people;
+    public String getServiceMaxPeople() {
+        return serviceMaxPeople;
     }
 
-    public void setService_max_people(String service_max_people) {
-        this.service_max_people = service_max_people;
+    public void setServiceMaxPeople(String serviceMaxPeople) {
+        this.serviceMaxPeople = serviceMaxPeople;
     }
 
-    public String getStandard_room() {
-        return standard_room;
+    public String getStandardRoom() {
+        return standardRoom;
     }
 
-    public void setStandard_room(String standard_room) {
-        this.standard_room = standard_room;
+    public void setStandardRoom(String standardRoom) {
+        this.standardRoom = standardRoom;
     }
 
-    public String getDescription_other_convenience() {
-        return description_other_convenience;
+    public String getDescriptionOtherConvenience() {
+        return descriptionOtherConvenience;
     }
 
-    public void setDescription_other_convenience(String description_other_convenience) {
-        this.description_other_convenience = description_other_convenience;
+    public void setDescriptionOtherConvenience(String descriptionOtherConvenience) {
+        this.descriptionOtherConvenience = descriptionOtherConvenience;
     }
 
-    public Double getPool_area() {
-        return pool_area;
+    public Double getPoolArea() {
+        return poolArea;
     }
 
-    public void setPool_area(Double pool_area) {
-        this.pool_area = pool_area;
+    public void setPoolArea(Double poolArea) {
+        this.poolArea = poolArea;
     }
 
-    public int getNumber_or_floors() {
-        return number_or_floors;
+    public int getNumberOrFloors() {
+        return numberOrFloors;
     }
 
-    public void setNumber_or_floors(int number_or_floors) {
-        this.number_or_floors = number_or_floors;
+    public void setNumberOrFloors(int numberOrFloors) {
+        this.numberOrFloors = numberOrFloors;
     }
 
     public List<Contract> getContracts() {
@@ -120,19 +120,19 @@ public class Service {
         this.contracts = contracts;
     }
 
-    public Rent_type getRent_type() {
-        return rent_type;
+    public Rent_type getRentType() {
+        return rentType;
     }
 
-    public void setRent_type(Rent_type rent_type) {
-        this.rent_type = rent_type;
+    public void setRentType(Rent_type rentType) {
+        this.rentType = rentType;
     }
 
-    public Service_type getService_type() {
-        return service_type;
+    public Service_type getServiceType() {
+        return serviceType;
     }
 
-    public void setService_type(Service_type service_type) {
-        this.service_type = service_type;
+    public void setServiceType(Service_type serviceType) {
+        this.serviceType = serviceType;
     }
 }

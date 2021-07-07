@@ -8,30 +8,37 @@ import java.util.List;
 public class Customer_Type {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int customer_type_id ;
+    private int customerTypeId ;
 
-    private String customer_type_name ;
+    private String customerTypeName ;
 
-    @OneToMany(mappedBy = "customer_type")
+    @OneToMany(mappedBy = "customerType")
     private List<Customer> customers ;
 
     public Customer_Type() {
     }
 
-    public int getCustomer_type_id() {
-        return customer_type_id;
+    public int getCustomerTypeId() {
+        return customerTypeId;
     }
 
-    public void setCustomer_type_id(int customer_type_id) {
-        this.customer_type_id = customer_type_id;
+    public void setCustomerTypeId(int customerTypeId) {
+        this.customerTypeId = customerTypeId;
     }
 
-    public String getCustomer_type_name() {
-        return customer_type_name;
+    public String getCustomerTypeName() {
+        return customerTypeName;
     }
 
-    public void setCustomer_type_name(String customer_type_name) {
-        this.customer_type_name = customer_type_name;
+    public void setCustomerTypeName(String customerTypeName) {
+        this.customerTypeName = customerTypeName;
     }
 
+    public List<Customer> getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(List<Customer> customers) {
+        this.customers = customers;
+    }
 }

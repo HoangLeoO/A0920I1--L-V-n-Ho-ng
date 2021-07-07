@@ -7,27 +7,27 @@ import javax.persistence.*;
 public class Contract_Detail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int Contract_detail_id ;
+    private int ContractDetailId ;
 
     private int quantity ;
 
     @ManyToOne
-    @JoinColumn(name = "contract_id")
+    @JoinColumn(name = "contractId")
     private Contract contract ;
 
     @ManyToOne
-    @JoinColumn(name = "attach_service_id")
-    private Attach_Service attach_service ;
+    @JoinColumn(name = "attachServiceId")
+    private Attach_Service attachService ;
 
     public Contract_Detail() {
     }
 
-    public int getContract_detail_id() {
-        return Contract_detail_id;
+    public int getContractDetailId() {
+        return ContractDetailId;
     }
 
-    public void setContract_detail_id(int contract_detail_id) {
-        Contract_detail_id = contract_detail_id;
+    public void setContractDetailId(int contractDetailId) {
+        ContractDetailId = contractDetailId;
     }
 
     public int getQuantity() {
@@ -46,11 +46,11 @@ public class Contract_Detail {
         this.contract = contract;
     }
 
-    public Attach_Service getAttach_service() {
-        return attach_service;
+    public Attach_Service getAttachService() {
+        return attachService;
     }
 
-    public void setAttach_service(Attach_Service attach_service) {
-        this.attach_service = attach_service;
+    public void setAttachService(Attach_Service attachService) {
+        this.attachService = attachService;
     }
 }

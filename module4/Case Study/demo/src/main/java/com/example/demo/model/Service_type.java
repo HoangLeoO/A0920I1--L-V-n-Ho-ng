@@ -8,30 +8,30 @@ import java.util.List;
 public class Service_type {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int service_type_id ;
+    private int serviceTypeId ;
 
-    private String service_type_name ;
+    private String serviceTypeName ;
 
-    @OneToMany(mappedBy = "service_type")
+    @OneToMany(mappedBy = "serviceType")
     private List<Service> services ;
 
     public Service_type() {
     }
 
-    public int getService_type_id() {
-        return service_type_id;
+    public int getServiceTypeId() {
+        return serviceTypeId;
     }
 
-    public void setService_type_id(int service_type_id) {
-        this.service_type_id = service_type_id;
+    public void setServiceTypeId(int serviceTypeId) {
+        this.serviceTypeId = serviceTypeId;
     }
 
-    public String getService_type_name() {
-        return service_type_name;
+    public String getServiceTypeName() {
+        return serviceTypeName;
     }
 
-    public void setService_type_name(String service_type_name) {
-        this.service_type_name = service_type_name;
+    public void setServiceTypeName(String serviceTypeName) {
+        this.serviceTypeName = serviceTypeName;
     }
 
     public List<Service> getServices() {

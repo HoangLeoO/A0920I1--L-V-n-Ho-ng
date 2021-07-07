@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/customer-create}" method="post" th:object="${customer}">
+    <button type="submit">Create</button>
+    <input type="hidden" th:fied="*{customerId}">
+
+    <label>Id Card</label><br>
+    <input type="text" th:fied="*{customerIdCard}"><br>
+    <label>Name Customer</label><br>
+    <input type="text" th:fied="*{customerName}"><br>
+    <label>Birthday</label><br>
+    <input type="date" th:fied="*{customerBirthday}"><br>
+    <label>Gender</label><br>
+    <input type="text" th:fied="*{customerGender}"><br>
+    <label>Email</label><br>
+    <input type="text" th:fied="*{customerEmail}"><br>
+    <label>Phone</label><br>
+    <input type="text" th:fied="*{customerPhone}"><br>
+    <label>Address</label><br>
+    <input type="text" th:fied="*{customerAddress}"><br>
+    <label>Customer Type</label><br>
+    <div>
+    <select id="customerType" th:fied="*{customerType}">
+        <th:block th:each="c:${customerType}">
+            <option th:value="${c.customerTypeId}" th:text="${c.customerTypeName}"></option>
+        </th:block>
+    </select><br>
+    </div>
+
+</form>
+</body>
+</html>

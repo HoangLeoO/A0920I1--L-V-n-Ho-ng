@@ -8,40 +8,40 @@ import java.util.List;
 public class Rent_type {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int rent_type_id ;
+    private int rentTypeId ;
 
-    private String rent_type_name ;
+    private String rentTypeName ;
 
-    private Double rent_type_cost ;
+    private Double rentTypeCost ;
 
-    @OneToMany(mappedBy = "rent_type")
+    @OneToMany(mappedBy = "rentType")
     private List<Service> services ;
 
     public Rent_type() {
     }
 
-    public int getRent_type_id() {
-        return rent_type_id;
+    public int getRentTypeId() {
+        return rentTypeId;
     }
 
-    public void setRent_type_id(int rent_type_id) {
-        this.rent_type_id = rent_type_id;
+    public void setRentTypeId(int rentTypeId) {
+        this.rentTypeId = rentTypeId;
     }
 
-    public String getRent_type_name() {
-        return rent_type_name;
+    public String getRentTypeName() {
+        return rentTypeName;
     }
 
-    public void setRent_type_name(String rent_type_name) {
-        this.rent_type_name = rent_type_name;
+    public void setRentTypeName(String rentTypeName) {
+        this.rentTypeName = rentTypeName;
     }
 
-    public Double getRent_type_cost() {
-        return rent_type_cost;
+    public Double getRentTypeCost() {
+        return rentTypeCost;
     }
 
-    public void setRent_type_cost(Double rent_type_cost) {
-        this.rent_type_cost = rent_type_cost;
+    public void setRentTypeCost(Double rentTypeCost) {
+        this.rentTypeCost = rentTypeCost;
     }
 
     public List<Service> getServices() {

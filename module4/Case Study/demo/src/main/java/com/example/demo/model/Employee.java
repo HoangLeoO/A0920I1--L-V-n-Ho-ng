@@ -9,36 +9,36 @@ import java.util.Date;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int employee_id ;
+    private int employeeId ;
 
-    private String  employee_name ;
+    private String  employeeName ;
 
-    private Date employee_birthday;
+    private Date employeeBirthday;
 
-    private String employee_id_card ;
+    private String employeeIdCard ;
 
-    private Double employee_salary ;
+    private Double employeeSalary ;
 
-    private String employee_phone ;
+    private String employeePhone ;
 
-    private  String employee_email ;
+    private  String employeeEmail ;
 
-    private  String employee_address ;
+    private  String employeeAddress ;
 
     @ManyToOne
-    @JoinColumn(name = "position_id")
+    @JoinColumn(name = "positionId")
     private Position position ;
 
     @ManyToOne
-    @JoinColumn(name = "education_degree_id")
-    private Education_degree education_degree;
+    @JoinColumn(name = "educationDegreeId")
+    private Education_degree educationDegree;
 
     @ManyToOne
     @JoinColumn(name = "username" ,insertable = false,updatable = false)
     private User user;
 
     @ManyToOne
-    @JoinColumn(name = "division_id")
+    @JoinColumn(name = "divisionId")
     private Division division ;
 
     private String username;
@@ -46,68 +46,68 @@ public class Employee {
     public Employee() {
     }
 
-    public int getEmployee_id() {
-        return employee_id;
+    public int getEmployeeId() {
+        return employeeId;
     }
 
-    public void setEmployee_id(int employee_id) {
-        this.employee_id = employee_id;
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
     }
 
-    public String getEmployee_name() {
-        return employee_name;
+    public String getEmployeeName() {
+        return employeeName;
     }
 
-    public void setEmployee_name(String employee_name) {
-        this.employee_name = employee_name;
+    public void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
     }
 
-    public Date getEmployee_birthday() {
-        return employee_birthday;
+    public Date getEmployeeBirthday() {
+        return employeeBirthday;
     }
 
-    public void setEmployee_birthday(Date employee_birthday) {
-        this.employee_birthday = employee_birthday;
+    public void setEmployeeBirthday(Date employeeBirthday) {
+        this.employeeBirthday = employeeBirthday;
     }
 
-    public String getEmployee_id_card() {
-        return employee_id_card;
+    public String getEmployeeIdCard() {
+        return employeeIdCard;
     }
 
-    public void setEmployee_id_card(String employee_id_card) {
-        this.employee_id_card = employee_id_card;
+    public void setEmployeeIdCard(String employeeIdCard) {
+        this.employeeIdCard = employeeIdCard;
     }
 
-    public Double getEmployee_salary() {
-        return employee_salary;
+    public Double getEmployeeSalary() {
+        return employeeSalary;
     }
 
-    public void setEmployee_salary(Double employee_salary) {
-        this.employee_salary = employee_salary;
+    public void setEmployeeSalary(Double employeeSalary) {
+        this.employeeSalary = employeeSalary;
     }
 
-    public String getEmployee_phone() {
-        return employee_phone;
+    public String getEmployeePhone() {
+        return employeePhone;
     }
 
-    public void setEmployee_phone(String employee_phone) {
-        this.employee_phone = employee_phone;
+    public void setEmployeePhone(String employeePhone) {
+        this.employeePhone = employeePhone;
     }
 
-    public String getEmployee_email() {
-        return employee_email;
+    public String getEmployeeEmail() {
+        return employeeEmail;
     }
 
-    public void setEmployee_email(String employee_email) {
-        this.employee_email = employee_email;
+    public void setEmployeeEmail(String employeeEmail) {
+        this.employeeEmail = employeeEmail;
     }
 
-    public String getEmployee_address() {
-        return employee_address;
+    public String getEmployeeAddress() {
+        return employeeAddress;
     }
 
-    public void setEmployee_address(String employee_address) {
-        this.employee_address = employee_address;
+    public void setEmployeeAddress(String employeeAddress) {
+        this.employeeAddress = employeeAddress;
     }
 
     public Position getPosition() {
@@ -118,12 +118,20 @@ public class Employee {
         this.position = position;
     }
 
-    public Education_degree getEducation_degree() {
-        return education_degree;
+    public Education_degree getEducationDegree() {
+        return educationDegree;
     }
 
-    public void setEducation_degree(Education_degree education_degree) {
-        this.education_degree = education_degree;
+    public void setEducationDegree(Education_degree educationDegree) {
+        this.educationDegree = educationDegree;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public Division getDivision() {

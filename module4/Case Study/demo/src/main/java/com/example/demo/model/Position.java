@@ -8,9 +8,9 @@ import java.util.List;
 public class Position {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int position_id ;
+    private int positionId ;
 
-    private String position_name ;
+    private String positionName ;
 
     @OneToMany(mappedBy = "position")
     private List<Employee> employees;
@@ -18,20 +18,20 @@ public class Position {
     public Position() {
     }
 
-    public int getPosition_id() {
-        return position_id;
+    public int getPositionId() {
+        return positionId;
     }
 
-    public void setPosition_id(int position_id) {
-        this.position_id = position_id;
+    public void setPositionId(int positionId) {
+        this.positionId = positionId;
     }
 
-    public String getPosition_name() {
-        return position_name;
+    public String getPositionName() {
+        return positionName;
     }
 
-    public void setPosition_name(String position_name) {
-        this.position_name = position_name;
+    public void setPositionName(String positionName) {
+        this.positionName = positionName;
     }
 
     public List<Employee> getEmployees() {
