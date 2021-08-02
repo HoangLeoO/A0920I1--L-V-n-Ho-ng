@@ -1,8 +1,11 @@
 package com.example.demo.model;
 
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
-import java.util.Date;
+import javax.validation.constraints.*;
+
 
 @Entity
 @Table(name = "employee")
@@ -11,18 +14,30 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int employeeId ;
 
+    @NotEmpty
+    @Size(min = 2,max = 20)
     private String  employeeName ;
 
-    private Date employeeBirthday;
 
+    @DateTimeFormat(pattern = "dd/MM/yyyy")
+    private String employeeBirthday;
+
+    @Pattern(regexp = "NV-\\d{4}")
+    private String employeeCode ;
+
+    @Pattern(regexp = "^[0-9\\-\\+]{9,15}$")
     private String employeeIdCard ;
 
-    private Double employeeSalary ;
+    @NotBlank
+    private String employeeSalary ;
 
+    @Pattern(regexp = "^[0-9\\-\\+]{9,15}$")
     private String employeePhone ;
 
+    @Email
     private  String employeeEmail ;
 
+    @NotNull
     private  String employeeAddress ;
 
     @ManyToOne
@@ -34,16 +49,23 @@ public class Employee {
     private Education_degree educationDegree;
 
     @ManyToOne
-    @JoinColumn(name = "username" ,insertable = false,updatable = false)
+    @JoinColumn(name = "userId" ,insertable = false,updatable = false)
     private User user;
 
     @ManyToOne
     @JoinColumn(name = "divisionId")
     private Division division ;
 
-    private String username;
 
     public Employee() {
+    }
+
+    public String getEmployeeCode() {
+        return employeeCode;
+    }
+
+    public void setEmployeeCode(String employeeCode) {
+        this.employeeCode = employeeCode;
     }
 
     public int getEmployeeId() {
@@ -62,11 +84,11 @@ public class Employee {
         this.employeeName = employeeName;
     }
 
-    public Date getEmployeeBirthday() {
+    public String getEmployeeBirthday() {
         return employeeBirthday;
     }
 
-    public void setEmployeeBirthday(Date employeeBirthday) {
+    public void setEmployeeBirthday(String employeeBirthday) {
         this.employeeBirthday = employeeBirthday;
     }
 
@@ -78,11 +100,11 @@ public class Employee {
         this.employeeIdCard = employeeIdCard;
     }
 
-    public Double getEmployeeSalary() {
+    public String getEmployeeSalary() {
         return employeeSalary;
     }
 
-    public void setEmployeeSalary(Double employeeSalary) {
+    public void setEmployeeSalary(String employeeSalary) {
         this.employeeSalary = employeeSalary;
     }
 
@@ -142,11 +164,4 @@ public class Employee {
         this.division = division;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 }

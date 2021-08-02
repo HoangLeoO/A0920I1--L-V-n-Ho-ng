@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/employee-create}" method="post" th:object="${employee}">
+
+    <input type="hidden" th:field="*{employeeId}">
+
+    <label>Employee Code</label><br>
+    <input type="text" th:field="*{employeeCode}"><br>
+    <label>Name Employee</label><br>
+    <input type="text" th:field="*{employeeName}"><br>
+    <label>Birthday</label><br>
+    <input type="date" th:field="*{employeeBirthday}"><br>
+    <label>Salary</label><br>
+    <input type="text" th:field="*{employeeSalary}"><br>
+    <label>Id Card</label><br>
+    <input type="text" th:field="*{employeeIdCard}"><br>
+    <label>Email</label><br>
+    <input type="text" th:field="*{employeeEmail}"><br>
+    <label>Phone</label><br>
+    <input type="text" th:field="*{employeePhone}"><br>
+    <label>Address</label><br>
+    <input type="text" th:field="*{employeeAddress}"><br>
+    <label>Division</label><br>
+    <div>
+        <select id="division" th:field="*{division}">
+            <th:block th:each="d:${division}">
+                <option th:value="${d.divisionId}" th:text="${d.divisionName}"></option>
+            </th:block>
+        </select><br>
+    </div>
+    <label>Position</label><br>
+    <div>
+        <select id="position" th:field="*{position}">
+            <th:block th:each="p:${position}">
+                <option th:value="${p.positionId}" th:text="${p.positionName}"></option>
+            </th:block>
+        </select><br>
+    </div>
+    <label>Education Degree</label><br>
+    <div>
+        <select id="educationDegree" th:field="*{educationDegree}">
+            <th:block th:each="e:${educationDegree}">
+                <option th:value="${e.educationDegreeId}" th:text="${e.educationDegreeName}"></option>
+            </th:block>
+        </select><br>
+    </div>
+    <label>UserName</label><br>
+    <div>
+        <select id="username" th:field="*{user}">
+            <th:block th:each="u:${user}">
+                <option th:value="${u.userId}" th:text="${u.username}"></option>
+            </th:block>
+        </select><br>
+    </div>
+    <button type="submit">Create</button>
+</form>
+</body>
+</html>

@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="~{layout/header::header}">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>List Customer</title>
 </head>
 <body>
-<table>
-    <thead>
-    <tr>
-        <th>Id Card</th>
-        <th>Name Customer</th>
-        <th>Birthday</th>
-        <th>Gender</th>
-        <th>Phone</th>
-        <th>Email</th>
-        <th>Address</th>
-        <th>Customer Type</th>
-        <th>Edit</th>
-        <th>Delete</th>
+<div th:replace="~{layout/navbar::navbar}"></div>
+<div style="height: 100px"></div>
+<table class="table">
+    <thead class="thead-dark">
+    <tr >
+        <th scope="col">Customer Code</th>
+        <th scope="col">Name Customer</th>
+        <th scope="col">Birthday</th>
+        <th scope="col">Id Card</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Email</th>
+        <th scope="col">Address</th>
+        <th scope="col">Customer Type</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
     </tr>
     </thead>
     <tbody>
     <tr th:each="cus : ${customer}">
-        <td th:text="${cus.customerIdCard}"></td>
+        <td th:text="${cus.customerCode}"></td>
         <td th:text="${cus.customerName}"></td>
         <td th:text="${cus.customerBirthday}"></td>
+        <td th:text="${cus.customerIdCard}"></td>
         <td th:text="${cus.customerGender}"></td>
         <td th:text="${cus.customerPhone}"></td>
         <td th:text="${cus.customerEmail}"></td>
         <td th:text="${cus.customerAddress}"></td>
-        <td th:text="${cus.customerType}"></td>
-        <td><a th:href="@{#}">Edit</a></td>
-        <td><a th:href="@{#}">Delete</a></td>
+        <td th:text="${cus.customerType.customerTypeName}"></td>
+        <td><a th:href="@{/customer/edit/__${cus.customerId}__}">Edit</a></td>
+        <td><a th:href="@{/customer/delete/__${cus.customerId}__}">Delete</a></td>
     </tr>
     </tbody>
 </table>

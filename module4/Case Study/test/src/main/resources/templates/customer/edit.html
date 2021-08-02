@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout/header::header}">
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+<div  th:replace="~{layout/navbar::navbar}"></div>
+<div style="height: 50px">
+</div>
+<div class="container p-3 my-3 bg-dark text-white">
+    <div>
+        <form th:action="@{/customer_edit}"  method="post" th:object="${customer}">
+            <center>   <h3>Edit Customer</h3> </center>
+            <input type="hidden" th:field="*{id}">
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label >Name</label>
+                    <input type="text" class="form-control" value=""  th:field="*{name}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</span>
+                    </th:block>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label >Gender</label>
+                    <input type="text" class="form-control"  value="" th:field="*{gender}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}">Name Error</span>
+                    </th:block>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label >Birthday</label>
+                    <input type="date" class="form-control"  value=""  th:field="*{birthday}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}">Name Error</span>
+                    </th:block>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label >Id Card</label>
+                    <input type="text" class="form-control" id="idCard" value="" th:field="*{idCard}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('idCard')}" th:errors="*{idCard}">Name Error</span>
+                    </th:block>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label >Email</label>
+                    <input type="email" class="form-control" id="email" value=""  th:field="*{email}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Name Error</span>
+                    </th:block>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label >Phone</label>
+                    <input type="text" class="form-control" id="phone" value="" th:field="*{phone}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Name Error</span>
+                    </th:block>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label >Address</label>
+                    <input type="text" class="form-control" id="address"  th:field="*{address}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Name Error</span>
+                    </th:block>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label >Type</label>
+                    <select class="custom-select" id="Type" th:field="*{customerType}"  required>
+                        <option
+                                th:each="cusType :  ${customerType}"
+                                th:value="${cusType.id}"
+                                th:text="${cusType.name}"></option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                        Agree to terms and conditions
+                    </label>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Edit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+

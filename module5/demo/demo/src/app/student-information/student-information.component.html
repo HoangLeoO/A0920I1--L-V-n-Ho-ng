@@ -1,0 +1,15 @@
+
+<div class="card" style="width:400px" *ngIf="ConStudentDetail">
+  <h3>Student Information</h3>
+  <img [src]="ConStudentDetail.avatar" alt="image">
+  <div class="card-body">
+    <p>Student ID : {{ConStudentDetail.id}}</p>
+    <p>Student Name : {{ConStudentDetail.name}}</p>
+    <p>Student Age : {{ConStudentDetail.age}}</p>
+    <p>Student Mark : {{ConStudentDetail.mark}}</p>
+  </div>
+  <label>Chấm điểm : <input type="number" min="0" max="10" (change)="changeMark($event.target.value)"></label>
+</div>
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head  th:replace="~{layout/header::header}">
+    <meta charset="UTF-8">
+    <title>List Customer</title>
+</head>
+<body>
+<div  th:replace="~{layout/navbar::navbar}"></div>
+<div style="height: 50px">
+</div>
+<div class="container p-3 my-3 bg-dark text-white">
+    <center><h3>List Product</h3></center>
+    <table class="table text-white">
+        <form th:action="@{/product_list_search}" method="get">
+            <label>Tên sản phẩm</label>
+            <input type="text" name="key_search">
+            <input type="submit" value="Tìm Kiếm">
+        </form>
+        <thead class="thead-dark ">
+        <tr>
+            <th scope="col">STT</th>
+            <th scope="col">Tên Sản Phẩm</th>
+            <th scope="col">Giá bắt đầu</th>
+            <th scope="col">Loại sản phẩm</th>
+            <th scope="col">Tình trạng</th>
+            <th scope="col">Hành Động</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="p,pStar : ${products}">
+            <th scope="row" th:text="${pStar.count}"></th>
+            <td th:text="${p.name}"></td>
+            <td th:text="${p.price}"></td>
+            <td th:text="${p.productType.name}"></td>
+            <td th:text="${p.status}"></td>
+            <td>
+                <a th:href="@{/__${p.id}__/product_edit}">Sửa</a> | <a th:href="@{/__${p.id}__/product_delete}">Xóa</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+<!--    <th:block th:if="${message}">-->
+<!--        <p th:text="${message}"></p>-->
+<!--    </th:block>-->
+    <center>
+    <div>
+        <a th:href="@{'/product_list'(page=${products.number - 1}, key_search=${key_search})}" th:if="${products.hasPrevious()}"> Quay Lại </a>
+        <span th:text="${products.number + 1}"></span>/<span th:text="${products.totalPages}"></span>
+        <a th:href="@{'/product_list'(page=${products.number + 1}, key_search=${key_search})}" th:if="${products.hasNext()}"> Kế Tiếp </a>
+    </div>
+    </center>
+</div>
+</body>
+</html>

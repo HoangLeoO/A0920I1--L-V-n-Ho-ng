@@ -1,7 +1,9 @@
 package com.example.demo.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
-import java.util.Date;
+import javax.validation.constraints.*;
 
 @Entity
 @Table(name = "customer")
@@ -14,18 +16,29 @@ public class Customer {
     @JoinColumn(name = "customerTypeId" )
     private Customer_Type customerType ;
 
+    @Pattern(regexp = "KH-\\d{4}")
+    private String CustomerCode ;
+
+    @NotBlank(message = "Not null")
+    @Size(min = 2,max = 20)
     private String customerName ;
 
-    private Date customerBirthday ;
+    @DateTimeFormat(pattern = "mm/dd/yyyy")
+    private String customerBirthday ;
 
+    @NotBlank
     private String customerGender;
 
+    @Pattern(regexp = "^[0-9\\-\\+]{9,15}$")
     private String customerIdCard ;
 
+    @Pattern(regexp = "^[0-9\\-\\+]{9,15}$")
     private String customerPhone ;
 
+    @Email
     private String customerEmail ;
 
+    @NotBlank
     private String customerAddress ;
 
     public Customer() {
@@ -37,6 +50,14 @@ public class Customer {
 
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
+    }
+
+    public String getCustomerCode() {
+        return CustomerCode;
+    }
+
+    public void setCustomerCode(String customerCode) {
+        CustomerCode = customerCode;
     }
 
     public Customer_Type getCustomerType() {
@@ -55,11 +76,11 @@ public class Customer {
         this.customerName = customerName;
     }
 
-    public Date getCustomerBirthday() {
+    public String getCustomerBirthday() {
         return customerBirthday;
     }
 
-    public void setCustomerBirthday(Date customerBirthday) {
+    public void setCustomerBirthday(String customerBirthday) {
         this.customerBirthday = customerBirthday;
     }
 

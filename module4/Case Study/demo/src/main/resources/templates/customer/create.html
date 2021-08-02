@@ -5,33 +5,51 @@
     <title>Title</title>
 </head>
 <body>
-<form th:action="@{/customer-create}" method="post" th:object="${customer}">
-    <button type="submit">Create</button>
-    <input type="hidden" th:fied="*{customerId}">
+<form th:action="@{/customer/create}" method="post" th:object="${customer}">
 
-    <label>Id Card</label><br>
-    <input type="text" th:fied="*{customerIdCard}"><br>
+    <input type="hidden" th:field="*{customerId}">
+
+    <label>Code customer</label><br>
+    <input type="text" th:field="*{customerCode}">
+    <span th:if="${#fields.hasErrors('customerCode')}" th:errors="*{customerCode}">Name Error</span>
+    <br>
     <label>Name Customer</label><br>
-    <input type="text" th:fied="*{customerName}"><br>
+    <input type="text" th:field="*{customerName}">
+    <span th:if="${#fields.hasErrors('customerName')}" th:errors="*{customerName}">Name Error</span>
+    <br>
     <label>Birthday</label><br>
-    <input type="date" th:fied="*{customerBirthday}"><br>
+    <input type="date" th:field="*{customerBirthday}">
+    <span th:if="${#fields.hasErrors('customerBirthday')}" th:errors="*{customerBirthday}">Name Error</span>
+    <br>
     <label>Gender</label><br>
-    <input type="text" th:fied="*{customerGender}"><br>
+    <input type="text" th:field="*{customerGender}">
+    <span th:if="${#fields.hasErrors('customerGender')}" th:errors="*{customerGender}">Name Error</span>
+    <br>
+    <label>Id Card</label><br>
+    <input type="text" th:field="*{customerIdCard}">
+    <span th:if="${#fields.hasErrors('customerIdCard')}" th:errors="*{customerIdCard}">Name Error</span>
+    <br>
     <label>Email</label><br>
-    <input type="text" th:fied="*{customerEmail}"><br>
+    <input type="text" th:field="*{customerEmail}">
+    <span th:if="${#fields.hasErrors('customerEmail')}" th:errors="*{customerEmail}">Name Error</span>
+    <br>
     <label>Phone</label><br>
-    <input type="text" th:fied="*{customerPhone}"><br>
+    <input type="text" th:field="*{customerPhone}">
+    <span th:if="${#fields.hasErrors('customerPhone')}" th:errors="*{customerPhone}">Name Error</span>
+    <br>
     <label>Address</label><br>
-    <input type="text" th:fied="*{customerAddress}"><br>
+    <input type="text" th:field="*{customerAddress}">
+    <span th:if="${#fields.hasErrors('customerAddress')}" th:errors="*{customerAddress}">Name Error</span>
+    <br>
     <label>Customer Type</label><br>
     <div>
-    <select id="customerType" th:fied="*{customerType}">
+    <select id="customerType" th:field="*{customerType}">
         <th:block th:each="c:${customerType}">
             <option th:value="${c.customerTypeId}" th:text="${c.customerTypeName}"></option>
         </th:block>
     </select><br>
     </div>
-
+    <button type="submit">Create</button>
 </form>
 </body>
 </html>

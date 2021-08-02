@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout/header::header}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div  th:replace="~{layout/navbar::navbar}"></div>
+<div style="height: 50px">
+</div>
+<div class="container p-3 my-3 bg-dark text-white">
+    <div>
+        <form th:action="@{/product_create}"  method="post" th:object="${product}">
+            <center>   <h3>Thêm sản phẩm</h3> </center>
+            <input type="hidden" th:field="*{id}">
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label >Name</label>
+                    <input type="text" class="form-control" value=""  th:field="*{name}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</span>
+                    </th:block>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label >Giá bắt đầu</label>
+                    <input type="text" class="form-control"  value="" th:field="*{price}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('price')}" th:errors="*{price}">Name Error</span>
+                    </th:block>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label >Tình trạng</label>
+                    <input type="text" class="form-control" id="status"  th:field="*{status}" required>
+                    <th:block>
+                        <span style="color: white" th:if="${#fields.hasErrors('status')}" th:errors="*{status}">Name Error</span>
+                    </th:block>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label >Loại sản phẩm</label>
+                    <select class="custom-select" id="Type" th:field="*{productType}"  required>
+                        <option
+                                th:each="pType :  ${productType}"
+                                th:value="${pType.id}"
+                                th:text="${pType.name}"></option>
+                    </select>
+                </div>
+            </div>
+<!--            <div class="form-group">-->
+<!--                <div class="form-check">-->
+<!--                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>-->
+<!--                    <label class="form-check-label" for="invalidCheck2">-->
+<!--                        Agree to terms and conditions-->
+<!--                    </label>-->
+<!--                </div>-->
+<!--            </div>-->
+            <button class="btn btn-primary" type="submit">Thêm sản phẩm</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+

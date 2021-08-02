@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head  th:replace="~{layout/header::header}">
+    <meta charset="UTF-8">
+    <title>List Customer</title>
+</head>
+<body>
+<div  th:replace="~{layout/navbar::navbar}"></div>
+<div style="height: 50px">
+</div>
+<div class="container p-3 my-3 bg-dark text-white">
+    <h3>List Customer</h3>
+    <table class="table text-white">
+        <form th:action="@{/customer_list_search}" method="get">
+            <input type="text" name="key_search">
+            <input type="submit" value="Search">
+        </form>
+    <thead class="thead-dark ">
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Birthday</th>
+        <th scope="col">Id Card</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Address</th>
+        <th scope="col">Customer Type</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="c:${customers}">
+        <th scope="row" th:text="${c.id}"></th>
+        <td th:text="${c.name}"></td>
+        <td th:text="${c.gender}"></td>
+        <td th:text="${c.birthday}"></td>
+        <td th:text="${c.idCard}"></td>
+        <td th:text="${c.email}"></td>
+        <td th:text="${c.phone}"></td>
+        <td th:text="${c.address}"></td>
+        <td th:text="${c.customerType.name}"></td>
+        <td>
+            <a th:href="@{/__${c.id}__/customer_edit}">Edit</a>
+        </td>
+        <td>
+            <a th:href="@{/__${c.id}__/customer_delete}">Delete</a>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+    <div>
+        <a th:href="@{'/customer_list'(page=${customers.number - 1}, key_search=${key_search})}" th:if="${customers.hasPrevious()}">Previous</a>
+        <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>
+        <a th:href="@{'/customer_list'(page=${customers.number + 1}, key_search=${key_search})}" th:if="${customers.hasNext()}">Next</a>
+         </div>
+</div>
+</body>
+</html>

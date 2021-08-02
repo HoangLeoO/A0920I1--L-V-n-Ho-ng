@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Employee Code</th>
+        <th>Name Employee</th>
+        <th>Id Card</th>
+        <th>Birthday</th>
+        <th>Salary</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Division</th>
+        <th>Position</th>
+        <th>Education Degree</th>
+        <th>UserName</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="e : ${employees}">
+        <td th:text="${e.employeeCode}"></td>
+        <td th:text="${e.employeeName}"></td>
+        <td th:text="${e.employeeIdCard}"></td>
+        <td th:text="${e.employeeBirthday}"></td>
+        <td th:text="${e.employeeSalary}"></td>
+        <td th:text="${e.employeePhone}"></td>
+        <td th:text="${e.employeeEmail}"></td>
+        <td th:text="${e.employeeAddress}"></td>
+        <td th:text="${e.division.divisionName}"></td>
+        <td th:text="${e.position.positionName}"></td>
+        <td th:text="${e.educationDegree.educationDegreeName}"></td>
+        <td th:text="${e.user.username}"></td>
+        <td><a th:href="@{#}">Edit</a></td>
+        <td><a th:href="@{#}">Delete</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
