@@ -1,6 +1,7 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {IStudent} from '../model/IStudent';
-import {studentDao} from '../repository/studentDao';
+import {StudentService} from '../student.service';
+import {ActivatedRoute, ParamMap} from '@angular/router';
 
 @Component({
   selector: 'app-student-information',
@@ -8,16 +9,26 @@ import {studentDao} from '../repository/studentDao';
   styleUrls: ['./student-information.component.css']
 })
 export class StudentInformationComponent implements OnInit {
-
-  @Input()
-  ConStudentDetail: IStudent ;
-  constructor() { }
+  idStudent: number;
+  studentDetail: IStudent;
+  // @Input()
+  // ConStudentDetail: IStudent ;
+  // @Output()
+  // throwCurentMark = new EventEmitter(); // khai bao mot su kien
+  constructor(private  studentService: StudentService, private  activatedRouter: ActivatedRoute) { }
 
   ngOnInit(): void {
-
+    this.activatedRouter.paramMap.subscribe((paramMap: ParamMap) =>{
+      // tslint:disable-next-line:radix
+      this.idStudent = parseInt(paramMap.get('id'));
+      this.studentService.findById(this.idStudent).subscribe(
+        (data) => {this.studentDetail = data;}
+      );
+    });
   }
 
-  changeMark(mark: number) {
-    this.ConStudentDetail.mark = mark;
-  }
+  // changeMark(mark: number) {
+  //   this.ConStudentDetail.mark = mark;
+  //   this.throwCurentMark.emit(mark);
+  // }
 }

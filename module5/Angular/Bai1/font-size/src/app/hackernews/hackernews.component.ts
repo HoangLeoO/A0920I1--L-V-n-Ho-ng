@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hackernews.component.css']
 })
 export class HackernewsComponent implements OnInit {
-
-  constructor() { }
+  article = {
+    title: 'The Evolution of Async JavaScript: From Callbacks, to Promises, to Async/Await',
+    url: 'https://medium.freecodecamp.org/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40'
+  };
   articles = [
     {
       title: 'The Evolution of Async JavaScript: From Callbacks, to Promises, to Async/Await',
@@ -30,11 +32,13 @@ export class HackernewsComponent implements OnInit {
       url: 'https://ruslanspivak.com/lsbaws-part1/'
     }
   ];
-  updateArticles() {
-    this.articles.title = document.getElementById('article-title').title;
-    this.articles.url = document.getElementById('article-url').url;
-  }
+  constructor() { }
+
   ngOnInit(): void {
+  }
+  updateArticle() {
+    this.article.title = document.getElementById('article-title').value;
+    this.article.url = document.getElementById('article-url').value;
   }
 
 }

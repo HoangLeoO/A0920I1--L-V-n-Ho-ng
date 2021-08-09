@@ -1,4 +1,5 @@
 <div style="text-align: center;"><h3>Student List</h3></div>
+<a class="btn btn-primary" routerLink="/create">Create Student</a>
 <table class="table table-striped table-hover">
   <thead>
   <tr>
@@ -19,9 +20,23 @@
     <td *ngIf="student.mark >= 5" class="text-success">PASS</td>
     <td *ngIf="student.mark < 5" class="text-danger">FAIL</td>
     <td>
-      <button class="btn btn-info"  (click)="getStudent(student)">Detail</button>
+<!--      <button class="btn btn-info"  (click)="getStudent(student)">Detail</button>-->
+      <a class="btn btn-secondary" [routerLink]="['', student.id]">Detail</a>
     </td>
   </tr>
   </tbody>
 </table>
-<app-student-information [ConStudentDetail]="ChaStudentDetail"></app-student-information>
+<!--<div class="container-fluid">-->
+<!--  <div class="row">-->
+<!--<div class="col-4">-->
+<!--  <app-student-information  (throwCurentMark)="catchMarkFromCon($event)" [ConStudentDetail]="ChaStudentDetail"></app-student-information>-->
+<!--</div>-->
+<!--<div class="col-4">-->
+<!--  <app-template-driven-form ></app-template-driven-form>-->
+<!--</div>-->
+<!--    <div class="col-4">-->
+<!--      <app-reactive-form></app-reactive-form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+

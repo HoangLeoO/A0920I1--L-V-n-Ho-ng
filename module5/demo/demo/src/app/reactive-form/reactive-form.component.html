@@ -1,0 +1,44 @@
+<h3>Reactive from</h3>
+<div class="col-6">
+  <form [formGroup]="createForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Id</label>
+      <input class="form-control" type="text"
+             formControlName="id"
+      >
+    </div>
+    <div class="alert alert-danger" *ngIf="createForm.get('id').invalid && createForm.get('id').touched">Id la bat buoc
+      nhap
+    </div>
+    <div class="form-group">
+      <label>Name</label>
+      <input class="form-control" type="text"
+             formControlName="name"
+      >
+    </div>
+    <div class="alert alert-danger" *ngIf="createForm.get('name').invalid && createForm.get('name').pristine">Name la
+      bat buoc nhap
+    </div>
+    <div class="form-group">
+      <label>Age</label>
+      <input class="form-control" type="text"
+             formControlName="age"
+      >
+    </div>
+    <div class="form-group">
+      <label>Mark</label>
+      <input class="form-control" type="number"
+             min="0"
+             max="10"
+             formControlName="mark"
+      >
+    </div>
+    <div class="form-group">
+      <label>Avatar</label>
+      <input class="form-control" type="text"
+             formControlName="avatar"
+      >
+    </div>
+    <input type="submit" class="btn btn-primary" value="Create">
+  </form>
+</div>

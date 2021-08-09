@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {IStudent} from '../model/IStudent';
-import {studentDao} from '../repository/studentDao';
+import {StudentService} from '../student.service';
 
 @Component({
   selector: 'app-student-list',
@@ -9,11 +9,16 @@ import {studentDao} from '../repository/studentDao';
 })
 export class StudentListComponent implements OnInit {
 
-   students: IStudent[] = studentDao ;
+   students: IStudent[] = [] ;
    ChaStudentDetail: IStudent;
-  constructor() { }
+  constructor(private studentService: StudentService) { }
 
   ngOnInit(): void {
+     this.studentService.getAllStudent().subscribe(
+       (data) => {
+         this.students = data;
+       }
+     );
   }
 
   getStudent(value){
@@ -21,4 +26,7 @@ export class StudentListComponent implements OnInit {
    console.log(this.ChaStudentDetail);
   }
 
+  catchMarkFromCon(value) {
+    console.log(value);
+  }
 }

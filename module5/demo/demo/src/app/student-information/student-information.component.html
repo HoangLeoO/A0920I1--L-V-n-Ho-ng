@@ -1,14 +1,13 @@
 
-<div class="card" style="width:400px" *ngIf="ConStudentDetail">
+<div class="card" style="width:400px" *ngIf="studentDetail">
   <h3>Student Information</h3>
-  <img [src]="ConStudentDetail.avatar" alt="image">
+  <img [src]="studentDetail.avatar" alt="image">
   <div class="card-body">
-    <p>Student ID : {{ConStudentDetail.id}}</p>
-    <p>Student Name : {{ConStudentDetail.name}}</p>
-    <p>Student Age : {{ConStudentDetail.age}}</p>
-    <p>Student Mark : {{ConStudentDetail.mark}}</p>
+    <p>Student ID : {{studentDetail.id}}</p>
+    <p>Student Name : {{studentDetail.name}}</p>
+    <p>Student Age : {{studentDetail.age}}</p>
+    <p>Student Mark : {{studentDetail.mark}}</p>
   </div>
-  <label>Chấm điểm : <input type="number" min="0" max="10" (change)="changeMark($event.target.value)"></label>
 </div>
 
 

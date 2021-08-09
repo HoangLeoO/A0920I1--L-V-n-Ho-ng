@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Hoang",
+      "age": 20,
+      "mark": 5,
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Arh-avatar.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Phuong",
+      "age": 24,
+      "mark": 8,
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Arh-avatar.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Hoang",
+      "age": 20,
+      "mark": 5,
+      "avatar": ""
+    },
+    {
+      "id": "4",
+      "name": "Hoang",
+      "age": 20,
+      "mark": 5,
+      "avatar": ""
+    },
+    {
+      "id": 5,
+      "name": "Hoang",
+      "age": 20,
+      "mark": 2,
+      "avatar": ""
+    }
+  ]
+}

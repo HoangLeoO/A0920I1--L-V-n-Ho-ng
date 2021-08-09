@@ -9,6 +9,9 @@ import { PetComponent } from './pet/pet.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { HackernewsComponent } from './hackernews/hackernews.component';
 import { LikesComponent } from './likes/likes.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FormCreateHackernewsComponent } from './form-create-hackernews/form-create-hackernews.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { LikesComponent } from './likes/likes.component';
     PetComponent,
     CalculatorComponent,
     HackernewsComponent,
-    LikesComponent
+    LikesComponent,
+    NavbarComponent,
+    FormCreateHackernewsComponent,
+    TodoComponent
   ],
     imports: [
         BrowserModule,
